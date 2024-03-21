@@ -100,7 +100,7 @@
     "ticketTypes": [
       {
         "name": "Code d'accès requis",
-        "description": "Il te faut un **code d'accès** pour obtenir ton billet. Et pour ça rien de plus facile : partager un poste sur Linkedin avec un lien vers ce site et le hashtag **#FreelancesJourney**, nous t'enverrons ton code d'accès unique par messagerie.",
+        "description": "Il te faut un **code d'accès** pour obtenir ton billet. Et pour ça rien de plus facile : partager un post sur Linkedin avec un lien vers ce site et le hashtag **#FreelancesJourney**, nous t'enverrons ton code d'accès unique par messagerie.",
         "price": "Gratuit",
         "link": "https://www.billetweb.fr/freelances-journey"
       }
