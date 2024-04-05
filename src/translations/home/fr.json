@@ -95,12 +95,12 @@
   "tickets": {
     "title": "Réserve ton billet gratuitement",
     "subtitle": "Participe à l'aventure",
-    "description": "Partage l'évènement avec le hashtag **#FreelancesJourney** sur **LinkedIn** pour recevoir ton **code d'accès exclusif**.",
+    "description": "N'hésites pas à partager l'évènement à ton réseau avec le hashtag **#FreelancesJourney**.",
     "callToAction": "Je prends mon billet",
     "ticketTypes": [
       {
         "name": "Code d'accès requis",
-        "description": "Il te faut un **code d'accès** pour obtenir ton billet. Et pour ça rien de plus facile : partager un post sur Linkedin avec un lien vers ce site et le hashtag **#FreelancesJourney**, nous t'enverrons ton code d'accès unique par messagerie.",
+        "description": "Rendez-vous sur **billetweb.fr/freelances-journey** pour réserver ton billet.",
         "price": "Gratuit",
         "link": "https://www.billetweb.fr/freelances-journey"
       }
