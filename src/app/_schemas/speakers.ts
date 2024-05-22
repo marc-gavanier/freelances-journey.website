@@ -1,6 +1,6 @@
 export type Speaker = {
   picture: string;
-  fullName: string;
+  name: string;
   role: string;
   networks?: {
     facebook?: string;

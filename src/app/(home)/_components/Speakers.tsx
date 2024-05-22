@@ -24,7 +24,7 @@ export const Speakers = ({ serializedSpeakers }: { serializedSpeakers: string })
       </div>
       <div className='row py-5 g-xl-5 text-center justify-content-center'>
         {speakers.map((speaker: Speaker) => (
-          <div key={speaker.fullName} className='col-md-3 col-6'>
+          <div key={speaker.name} className='col-md-3 col-6'>
             <div
               className='rounded-circle m-auto overflow-hidden position-relative bg-speaker'
               style={{
@@ -66,7 +66,7 @@ export const Speakers = ({ serializedSpeakers }: { serializedSpeakers: string })
                 )}
               </div>
             )}
-            <h3 className={`h5 ${speaker.networks ? 'mt-4' : 'mt-5'}`}>{speaker.fullName}</h3>
+            <h3 className={`h5 ${speaker.networks ? 'mt-4' : 'mt-5'}`}>{speaker.name}</h3>
             <p>{speaker.role}</p>
           </div>
         ))}

@@ -1,7 +1,7 @@
 [
   {
     "title": "Building Scalable Web Applications with Microservices Architecture",
-    "speaker": "John Doe",
+    "speakers": ["Flavie Prévot", "Thomas Burbidge"],
     "description": "Learn how to design and develop highly scalable web applications using microservices architecture. Discover best practices, challenges, and tools for building distributed systems.",
     "date": "2023-08-15T14:30:00Z",
     "duration": 45,
@@ -14,7 +14,7 @@
   },
   {
     "title": "AI and Ethical Considerations: Striking the Right Balance",
-    "speaker": "Jane Smith",
+    "speakers": ["Valentin Decker"],
     "description": "Explore the ethical challenges associated with AI development and deployment. Understand the importance of responsible AI practices and how they can influence decision-making.",
     "date": "2023-08-16T10:00:00Z",
     "duration": 30,
@@ -27,7 +27,7 @@
   },
   {
     "title": "Cloud-Native Applications with Kubernetes: From Deployment to Management",
-    "speaker": "Michael Johnson",
+    "speakers": ["Hannah Peters", "Pauline Klein"],
     "description": "Dive into the world of cloud-native applications and explore how Kubernetes simplifies deployment, scaling, and management of containerized applications. Learn tips for Kubernetes best practices.",
     "date": "2023-08-17T13:45:00Z",
     "duration": 60,

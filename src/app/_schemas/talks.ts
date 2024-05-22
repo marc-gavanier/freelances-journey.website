@@ -1,6 +1,6 @@
 export type Talk = {
   title: string;
-  speaker: string;
+  speakers: string[];
   description: string;
   duration: number;
   room: string;
@@ -10,6 +10,7 @@ export type Talk = {
   slidesLink?: string;
   videoLink?: string;
   tags?: string[];
+  openFeedback?: false;
 };
 
 export type Talks = Talk[];

@@ -1,8 +1,8 @@
 'use client';
 
+import { useTranslation } from '@/app/_translation';
 import Link from 'next/link';
 import { ReactElement } from 'react';
-import { useTranslation } from '@/app/_translation';
 import { Talk } from '../talk';
 import { TalkTranslation } from '../talkTranslation';
 
@@ -14,7 +14,7 @@ export const TalkDetails = ({ talk }: { talk: Talk }): ReactElement => {
       <h1>{talk.title}</h1>
       <p>({talk.language})</p>
       <small>
-        {i18n.by} {talk.speaker} - {talk.date.toLocaleString()} ({talk.duration} {i18n.durationUnit}) - {talk.room}
+        {i18n.by} {talk.speakers.join(', ')} - {talk.date.toLocaleString()} ({talk.duration} {i18n.durationUnit}) - {talk.room}
       </small>
       <br />
       <p>
