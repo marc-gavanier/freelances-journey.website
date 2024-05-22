@@ -1,7 +1,3 @@
-import { config } from 'dotenv';
-
-config();
-
 type Protocol = 'http' | 'https';
 
 type Url = `${Protocol}://${string}:${number}` | `${Protocol}://${string}`;
