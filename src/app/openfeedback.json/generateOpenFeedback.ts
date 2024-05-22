@@ -1,5 +1,5 @@
 import { Speaker, Speakers, Talk, Talks } from '../_schemas';
-import { urlFromEnv } from '../_utils';
+import { slugify, urlFromEnv } from '../_utils';
 
 type OpenFeedbackSession = {
   id: string;
@@ -11,11 +11,16 @@ type OpenFeedbackSession = {
   speakers?: string[];
 };
 
-type OpenFeedbackSpeakers = {
+type OpenFeedbackSpeaker = {
   id: string;
   name: string;
   photoUrl: string;
   socials?: { name: string; link: string }[];
+};
+
+export type OpenFeedback = {
+  sessions: Record<string, OpenFeedbackSession>;
+  speakers: Record<string, OpenFeedbackSpeaker>;
 };
 
 const onlyAllowedFeedbacks = (talk: Talk) => talk.openFeedback !== false;
@@ -27,16 +32,16 @@ const toOpenFeedbackSessions = (sessions: Record<string, OpenFeedbackSession>, t
     title: talk.title,
     startTime: talk.date,
     endTime: new Date(talk.date.getTime() + talk.duration * 60 * 1000),
-    ...(talk.speakers.length > 0 ? { speakers: talk.speakers } : {}),
+    ...(talk.speakers.length > 0 ? { speakers: talk.speakers.map(slugify) } : {}),
     ...(talk.track ? { trackTitle: talk.track } : {}),
     ...(talk.tags ? { tags: talk.tags } : {})
   }
 });
 
-const toOpenFeedbackSpeakers = (speakers: Record<string, OpenFeedbackSpeakers>, speaker: Speaker, index: number) => ({
+const toOpenFeedbackSpeakers = (speakers: Record<string, OpenFeedbackSpeaker>, speaker: Speaker) => ({
   ...speakers,
-  [index]: {
-    id: `${index}`,
+  [slugify(speaker.name)]: {
+    id: slugify(speaker.name),
     name: speaker.name,
     photoUrl: `${urlFromEnv()}/${speaker.picture}`,
     ...(speaker.networks
@@ -45,7 +50,7 @@ const toOpenFeedbackSpeakers = (speakers: Record<string, OpenFeedbackSpeakers>, 
   }
 });
 
-export const generateOpenFeedback = (talks: Talks, speakers: Speakers) => ({
+export const generateOpenFeedback = (talks: Talks, speakers: Speakers): OpenFeedback => ({
   sessions: talks.filter(onlyAllowedFeedbacks).reduce(toOpenFeedbackSessions, {}),
   speakers: speakers.reduce(toOpenFeedbackSpeakers, {})
 });

@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { Speakers, Talks } from '../_schemas';
-import { generateOpenFeedback } from './generateOpenFeedback';
+import { generateOpenFeedback, OpenFeedback } from './generateOpenFeedback';
 
 describe('Generate Open Feedback JSON', () => {
   it('should generate minimal Open Feedback JSON', () => {
@@ -17,7 +17,7 @@ describe('Generate Open Feedback JSON', () => {
       }
     ];
 
-    const openFeedback = generateOpenFeedback(talks, []);
+    const openFeedback: OpenFeedback = generateOpenFeedback(talks, []);
 
     expect(openFeedback).toStrictEqual({
       sessions: {
@@ -48,7 +48,7 @@ describe('Generate Open Feedback JSON', () => {
       }
     ];
 
-    const openFeedback = generateOpenFeedback(talks, []);
+    const openFeedback: OpenFeedback = generateOpenFeedback(talks, []);
 
     expect(openFeedback).toStrictEqual({
       sessions: {
@@ -92,7 +92,7 @@ describe('Generate Open Feedback JSON', () => {
       }
     ];
 
-    const openFeedback = generateOpenFeedback(talks, []);
+    const openFeedback: OpenFeedback = generateOpenFeedback(talks, []);
 
     expect(openFeedback).toStrictEqual({
       sessions: {
@@ -112,16 +112,16 @@ describe('Generate Open Feedback JSON', () => {
   it('should generate Open Feedback JSON with a session and his speaker', () => {
     const speakers: Speakers = [
       {
-        name: 'Valentin Decker',
+        name: 'Marc Gavanier',
         role: "J'aide les créateurs à publier leurs idées en ligne et à en vivre avec un business de Freelance",
-        picture: 'images/speakers/Valentin-Decker.webp'
+        picture: 'images/speakers/Marc-Gavanier.webp'
       }
     ];
 
     const talks: Talks = [
       {
         title: 'Building Scalable Web Applications with Microservices Architecture',
-        speakers: ['Valentin Decker'],
+        speakers: ['Marc Gavanier'],
         description:
           'Learn how to design and develop highly scalable web applications using microservices architecture. Discover best practices, challenges, and tools for building distributed systems.',
         date: new Date('2024-05-22T16:00:00+02:00'),
@@ -133,7 +133,7 @@ describe('Generate Open Feedback JSON', () => {
       }
     ];
 
-    const openFeedback = generateOpenFeedback(talks, speakers);
+    const openFeedback: OpenFeedback = generateOpenFeedback(talks, speakers);
 
     expect(openFeedback).toStrictEqual({
       sessions: {
@@ -144,14 +144,14 @@ describe('Generate Open Feedback JSON', () => {
           endTime: new Date('2024-05-22T14:45:00.000Z'),
           trackTitle: 'Web Development',
           tags: ['Microservices', 'Scalability', 'Distributed Systems'],
-          speakers: ['Valentin Decker']
+          speakers: ['marc-gavanier']
         }
       },
       speakers: {
-        '0': {
-          id: '0',
-          name: 'Valentin Decker',
-          photoUrl: 'http://localhost/images/speakers/Valentin-Decker.webp'
+        'marc-gavanier': {
+          id: 'marc-gavanier',
+          name: 'Marc Gavanier',
+          photoUrl: 'http://localhost/images/speakers/Marc-Gavanier.webp'
         }
       }
     });
@@ -160,14 +160,14 @@ describe('Generate Open Feedback JSON', () => {
   it('should generate Open Feedback JSON with a session and his full speaker', () => {
     const speakers: Speakers = [
       {
-        name: 'Valentin Decker',
+        name: 'Marc Gavanier',
         role: "J'aide les créateurs à publier leurs idées en ligne et à en vivre avec un business de Freelance",
-        picture: 'images/speakers/Valentin-Decker.webp',
+        picture: 'images/speakers/Marc-Gavanier.webp',
         networks: {
-          facebook: 'https://www.facebook.com/valentin-decker',
-          instagram: 'https://instagram.com/valentin-decker',
-          x: 'https://twitter.com/valentin-decker',
-          linkedin: 'https://linkedin.com/valentin-decker'
+          facebook: 'https://www.facebook.com/marc-gavanier',
+          instagram: 'https://instagram.com/marc-gavanier',
+          x: 'https://twitter.com/marc-gavanier',
+          linkedin: 'https://linkedin.com/marc-gavanier'
         }
       }
     ];
@@ -175,7 +175,7 @@ describe('Generate Open Feedback JSON', () => {
     const talks: Talks = [
       {
         title: 'Building Scalable Web Applications with Microservices Architecture',
-        speakers: ['Valentin Decker'],
+        speakers: ['Marc Gavanier'],
         description:
           'Learn how to design and develop highly scalable web applications using microservices architecture. Discover best practices, challenges, and tools for building distributed systems.',
         date: new Date('2024-05-22T16:00:00+02:00'),
@@ -187,7 +187,7 @@ describe('Generate Open Feedback JSON', () => {
       }
     ];
 
-    const openFeedback = generateOpenFeedback(talks, speakers);
+    const openFeedback: OpenFeedback = generateOpenFeedback(talks, speakers);
 
     expect(openFeedback).toStrictEqual({
       sessions: {
@@ -198,30 +198,30 @@ describe('Generate Open Feedback JSON', () => {
           endTime: new Date('2024-05-22T14:45:00.000Z'),
           trackTitle: 'Web Development',
           tags: ['Microservices', 'Scalability', 'Distributed Systems'],
-          speakers: ['Valentin Decker']
+          speakers: ['marc-gavanier']
         }
       },
       speakers: {
-        '0': {
-          id: '0',
-          name: 'Valentin Decker',
-          photoUrl: 'http://localhost/images/speakers/Valentin-Decker.webp',
+        'marc-gavanier': {
+          id: 'marc-gavanier',
+          name: 'Marc Gavanier',
+          photoUrl: 'http://localhost/images/speakers/Marc-Gavanier.webp',
           socials: [
             {
               name: 'facebook',
-              link: 'https://www.facebook.com/valentin-decker'
+              link: 'https://www.facebook.com/marc-gavanier'
             },
             {
               name: 'instagram',
-              link: 'https://instagram.com/valentin-decker'
+              link: 'https://instagram.com/marc-gavanier'
             },
             {
               name: 'x',
-              link: 'https://twitter.com/valentin-decker'
+              link: 'https://twitter.com/marc-gavanier'
             },
             {
               name: 'linkedin',
-              link: 'https://linkedin.com/valentin-decker'
+              link: 'https://linkedin.com/marc-gavanier'
             }
           ]
         }
