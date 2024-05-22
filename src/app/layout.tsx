@@ -1,5 +1,5 @@
-import { ReactElement, ReactNode } from 'react';
 import { Language, LANGUAGE_SETTINGS } from '@/app/_language';
+import { ReactElement, ReactNode } from 'react';
 import '../styles/styles.scss';
 
 const RootLayout = async ({ children }: { children: ReactNode }): Promise<ReactElement> => (

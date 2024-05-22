@@ -1,15 +1,18 @@
-const isDefinedAssetPrefix = process.env?.NEXT_PUBLIC_ASSET_PREFIX != null && process.env.NEXT_PUBLIC_ASSET_PREFIX !== '';
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+require('dotenv').config();
+
+const isDefinedAssetPrefix = process.env['NEXT_PUBLIC_ASSET_PREFIX'] != null && process.env['NEXT_PUBLIC_ASSET_PREFIX'] !== '';
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: process.env?.NEXT_PUBLIC_BASE_PATH ?? '',
-  assetPrefix: process.env?.NEXT_PUBLIC_ASSET_PREFIX ?? '',
+  basePath: process.env['NEXT_PUBLIC_BASE_PATH'] ?? '',
+  assetPrefix: process.env['NEXT_PUBLIC_ASSET_PREFIX'] ?? '',
   output: 'export',
   images: {
     unoptimized: true
   },
   sassOptions: {
-    additionalData: `$asset-prefix: ${isDefinedAssetPrefix ? process.env.NEXT_PUBLIC_ASSET_PREFIX : "''"};`
+    additionalData: `$asset-prefix: ${isDefinedAssetPrefix ? process.env['NEXT_PUBLIC_ASSET_PREFIX'] : "''"};`
   }
 };
 
