@@ -1,6 +1,6 @@
 [
   {
-    "fullName": "Flavie Prévot",
+    "name": "Flavie Prévot",
     "role": "J'aide les entreprises et les freelances à mieux travailler ensemble",
     "picture": "images/speakers/Flavie-Prévot.webp",
     "networks": {
@@ -8,7 +8,7 @@
     }
   },
   {
-    "fullName": "Thomas Burbidge",
+    "name": "Thomas Burbidge",
     "role": "Je construis des expériences éducatives pour les entrepreneurs, les indépendants et les freelances",
     "picture": "images/speakers/Thomas-Burbidge.webp",
     "networks": {
@@ -16,7 +16,7 @@
     }
   },
   {
-    "fullName": "Valentin Decker",
+    "name": "Valentin Decker",
     "role": "J'aide les créateurs à publier leurs idées en ligne et à en vivre avec un business de Freelance",
     "picture": "images/speakers/Valentin-Decker.webp",
     "networks": {
@@ -24,7 +24,7 @@
     }
   },
   {
-    "fullName": "Hannah Peters",
+    "name": "Hannah Peters",
     "role": "J'accompagne sur tous les sujets liés à la reconversion entrepreneuriale ou salariée",
     "picture": "images/speakers/Hannah-Peters.webp",
     "networks": {
@@ -32,7 +32,7 @@
     }
   },
   {
-    "fullName": "Pauline Klein",
+    "name": "Pauline Klein",
     "role": "J'accompagne les entrepreneurs pour développer leur réseau et leurs activités",
     "picture": "images/speakers/Pauline-Klein.webp",
     "networks": {
@@ -40,7 +40,7 @@
     }
   },
   {
-    "fullName": "Alexandre Favrot",
+    "name": "Alexandre Favrot",
     "role": "Consultant SEO depuis 8 ans - Surtout pour TPE, Indépendants et Freelances",
     "picture": "images/speakers/Alexandre-Favrot.webp",
     "networks": {

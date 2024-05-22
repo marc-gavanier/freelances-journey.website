@@ -18,14 +18,21 @@
         "language": {
           "type": "string"
         },
+        "openFeedback": {
+          "const": false,
+          "type": "boolean"
+        },
         "room": {
           "type": "string"
         },
         "slidesLink": {
           "type": "string"
         },
-        "speaker": {
-          "type": "string"
+        "speakers": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
         },
         "tags": {
           "items": {
@@ -43,7 +50,7 @@
           "type": "string"
         }
       },
-      "required": ["title", "speaker", "description", "duration", "room", "track", "language", "date"],
+      "required": ["title", "speakers", "description", "duration", "room", "track", "language", "date"],
       "type": "object"
     },
     "Talks": {

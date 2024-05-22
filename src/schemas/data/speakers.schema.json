@@ -5,7 +5,7 @@
     "Speaker": {
       "additionalProperties": false,
       "properties": {
-        "fullName": {
+        "name": {
           "type": "string"
         },
         "networks": {
@@ -33,7 +33,7 @@
           "type": "string"
         }
       },
-      "required": ["picture", "fullName", "role"],
+      "required": ["picture", "name", "role"],
       "type": "object"
     },
     "Speakers": {

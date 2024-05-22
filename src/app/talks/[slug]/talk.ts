@@ -2,7 +2,7 @@ import { slugify } from '@/app/_utils';
 
 type TalkBase = {
   title: string;
-  speaker: string;
+  speakers: string[];
   description: string;
   duration: number;
   room: string;
