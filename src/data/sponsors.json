@@ -13,5 +13,10 @@
     "logo": "images/home/sponsors/balladclub-lyon.svg",
     "name": "Ballad Club",
     "url": "https://ballad.club/"
+  },
+  {
+    "logo": "images/home/sponsors/numbr.svg",
+    "name": "Numbr",
+    "url": "https://numbr.co/"
   }
 ]
