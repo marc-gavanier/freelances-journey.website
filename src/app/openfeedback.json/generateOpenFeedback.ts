@@ -1,4 +1,4 @@
-import { Speaker, Speakers, Talk, Talks } from '../_schemas';
+import { Speaker, Speakers, Talk, Talks } from '@/app/_schemas';
 import { slugify, urlFromEnv } from '../_utils';
 
 type OpenFeedbackSession = {

@@ -1,9 +1,9 @@
 'use client';
 
+import { HomeTranslation } from '@/app/(home)/_translations';
 import { useTranslation } from '@/app/_translation';
 import { ReactElement } from 'react';
 import Markdown from 'react-markdown';
-import { HomeTranslation } from '../homeTranslation';
 
 export const Hero = (): ReactElement => {
   const { hero: i18n }: HomeTranslation = useTranslation();

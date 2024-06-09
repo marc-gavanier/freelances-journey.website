@@ -1,12 +1,12 @@
 'use client';
 
+import { HomeTranslation } from '@/app/(home)/_translations';
 import { Sponsor } from '@/app/_schemas';
 import { useTranslation } from '@/app/_translation';
 import Image from 'next/image';
 import Link from 'next/link';
 import { ReactElement } from 'react';
 import Markdown from 'react-markdown';
-import { HomeTranslation } from '../homeTranslation';
 
 export const Sponsors = ({ serializedSponsors }: { serializedSponsors: string }): ReactElement => {
   const sponsors: Sponsor[] = Array.from(JSON.parse(serializedSponsors));

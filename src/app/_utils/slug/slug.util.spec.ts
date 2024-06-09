@@ -1,4 +1,4 @@
-import { describe, it, expect } from 'vitest';
+import { describe, expect, it } from 'vitest';
 import { bySlug, slugify } from './slug.util';
 
 describe('slug', (): void => {
@@ -36,5 +36,13 @@ describe('slug', (): void => {
 
   it('should slugify string with accented chars', (): void => {
     expect(slugify(' testé ')).toBe('teste');
+  });
+
+  it('should slugify ending question mark', (): void => {
+    expect(slugify('Hello ?')).toBe('hello');
+  });
+
+  it('should slugify apostrophe', (): void => {
+    expect(slugify("I'm back")).toBe('i-m-back');
   });
 });

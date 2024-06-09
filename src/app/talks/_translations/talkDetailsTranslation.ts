@@ -1,9 +1,8 @@
-export type TalkTranslation = {
-  talks: {
-    title: string;
-    back: string;
+export type TalkDetailsTranslation = {
+  metadata: {
+    titleSuffix: string;
   };
-  talkDetails: {
+  item: {
     by: string;
     durationUnit: string;
     slides: string;

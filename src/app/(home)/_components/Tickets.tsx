@@ -1,11 +1,11 @@
 'use client';
 
+import { HomeTranslation } from '@/app/(home)/_translations';
 import { useTranslation } from '@/app/_translation';
 import Link from 'next/link';
 import { ReactElement } from 'react';
 import { Badge } from 'react-bootstrap';
 import Markdown from 'react-markdown';
-import { HomeTranslation } from '../homeTranslation';
 
 type TicketsProps = {
   ticketsConfiguration: { variant: 'primary-subtle' | 'warning' | 'info-subtle'; highlight?: boolean }[];

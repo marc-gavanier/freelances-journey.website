@@ -1,11 +1,11 @@
 'use client';
 
+import { HomeTranslation } from '@/app/(home)/_translations';
 import { Organizer } from '@/app/_schemas';
 import { useTranslation } from '@/app/_translation';
 import Image from 'next/image';
 import Link from 'next/link';
 import { ReactElement } from 'react';
-import { HomeTranslation } from '../homeTranslation';
 
 export const Organizers = ({ serializedOrganizers }: { serializedOrganizers: string }): ReactElement => {
   const organizers: Organizer[] = Array.from(JSON.parse(serializedOrganizers));
