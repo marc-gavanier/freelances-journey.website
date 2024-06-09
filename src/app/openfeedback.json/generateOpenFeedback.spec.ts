@@ -17,15 +17,15 @@ describe('Generate Open Feedback JSON', () => {
       }
     ];
 
-    const openFeedback: OpenFeedback = generateOpenFeedback(talks, []);
+    const openFeedback: OpenFeedback = generateOpenFeedback('Etc/GMT-0')(talks, []);
 
     expect(openFeedback).toStrictEqual({
       sessions: {
         '0': {
           id: '0',
           title: 'Entre industrialisation et artisanat, le métier de développeur',
-          startTime: new Date('2024-05-22T14:00:00.000Z'),
-          endTime: new Date('2024-05-22T14:45:00.000Z')
+          startTime: '2024-05-22T14:00:00Z',
+          endTime: '2024-05-22T14:45:00Z'
         }
       },
       speakers: {}
@@ -48,15 +48,15 @@ describe('Generate Open Feedback JSON', () => {
       }
     ];
 
-    const openFeedback: OpenFeedback = generateOpenFeedback(talks, []);
+    const openFeedback: OpenFeedback = generateOpenFeedback('Etc/GMT-0')(talks, []);
 
     expect(openFeedback).toStrictEqual({
       sessions: {
         '0': {
           id: '0',
           title: 'Building Scalable Web Applications with Microservices Architecture',
-          startTime: new Date('2024-05-22T14:00:00.000Z'),
-          endTime: new Date('2024-05-22T14:45:00.000Z'),
+          startTime: '2024-05-22T14:00:00Z',
+          endTime: '2024-05-22T14:45:00Z',
           trackTitle: 'Web Development',
           tags: ['Microservices', 'Scalability', 'Distributed Systems']
         }
@@ -92,15 +92,15 @@ describe('Generate Open Feedback JSON', () => {
       }
     ];
 
-    const openFeedback: OpenFeedback = generateOpenFeedback(talks, []);
+    const openFeedback: OpenFeedback = generateOpenFeedback('Etc/GMT-0')(talks, []);
 
     expect(openFeedback).toStrictEqual({
       sessions: {
         '0': {
           id: '0',
           title: 'Building Scalable Web Applications with Microservices Architecture',
-          startTime: new Date('2024-05-22T14:00:00.000Z'),
-          endTime: new Date('2024-05-22T14:45:00.000Z'),
+          startTime: '2024-05-22T14:00:00Z',
+          endTime: '2024-05-22T14:45:00Z',
           trackTitle: 'Web Development',
           tags: ['Microservices', 'Scalability', 'Distributed Systems']
         }
@@ -133,15 +133,15 @@ describe('Generate Open Feedback JSON', () => {
       }
     ];
 
-    const openFeedback: OpenFeedback = generateOpenFeedback(talks, speakers);
+    const openFeedback: OpenFeedback = generateOpenFeedback('Etc/GMT-0')(talks, speakers);
 
     expect(openFeedback).toStrictEqual({
       sessions: {
         '0': {
           id: '0',
           title: 'Building Scalable Web Applications with Microservices Architecture',
-          startTime: new Date('2024-05-22T14:00:00.000Z'),
-          endTime: new Date('2024-05-22T14:45:00.000Z'),
+          startTime: '2024-05-22T14:00:00Z',
+          endTime: '2024-05-22T14:45:00Z',
           trackTitle: 'Web Development',
           tags: ['Microservices', 'Scalability', 'Distributed Systems'],
           speakers: ['marc-gavanier']
@@ -187,15 +187,15 @@ describe('Generate Open Feedback JSON', () => {
       }
     ];
 
-    const openFeedback: OpenFeedback = generateOpenFeedback(talks, speakers);
+    const openFeedback: OpenFeedback = generateOpenFeedback('Etc/GMT-0')(talks, speakers);
 
     expect(openFeedback).toStrictEqual({
       sessions: {
         '0': {
           id: '0',
           title: 'Building Scalable Web Applications with Microservices Architecture',
-          startTime: new Date('2024-05-22T14:00:00.000Z'),
-          endTime: new Date('2024-05-22T14:45:00.000Z'),
+          startTime: '2024-05-22T14:00:00Z',
+          endTime: '2024-05-22T14:45:00Z',
           trackTitle: 'Web Development',
           tags: ['Microservices', 'Scalability', 'Distributed Systems'],
           speakers: ['marc-gavanier']

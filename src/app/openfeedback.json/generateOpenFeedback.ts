@@ -1,5 +1,11 @@
 import { Speaker, Speakers, Talk, Talks } from '@/app/_schemas';
+import dayjs from 'dayjs';
+import tz from 'dayjs/plugin/timezone';
+import utc from 'dayjs/plugin/utc';
 import { slugify, urlFromEnv } from '../_utils';
+
+dayjs.extend(utc);
+dayjs.extend(tz);
 
 type OpenFeedbackSession = {
   id: string;
@@ -25,18 +31,19 @@ export type OpenFeedback = {
 
 const onlyAllowedFeedbacks = (talk: Talk) => talk.openFeedback !== false;
 
-const toOpenFeedbackSessions = (sessions: Record<string, OpenFeedbackSession>, talk: Talk, index: number) => ({
-  ...sessions,
-  [index]: {
-    id: `${index}`,
-    title: talk.title,
-    startTime: talk.date,
-    endTime: new Date(talk.date.getTime() + talk.duration * 60 * 1000),
-    ...(talk.speakers.length > 0 ? { speakers: talk.speakers.map(slugify) } : {}),
-    ...(talk.track ? { trackTitle: talk.track } : {}),
-    ...(talk.tags ? { tags: talk.tags } : {})
-  }
-});
+const toOpenFeedbackSessions =
+  (timeZone: string) => (sessions: Record<string, OpenFeedbackSession>, talk: Talk, index: number) => ({
+    ...sessions,
+    [index]: {
+      id: `${index}`,
+      title: talk.title,
+      startTime: dayjs.tz(talk.date, timeZone).format(),
+      endTime: dayjs.tz(new Date(talk.date.getTime() + talk.duration * 60 * 1000), timeZone).format(),
+      ...(talk.speakers.length > 0 ? { speakers: talk.speakers.map(slugify) } : {}),
+      ...(talk.track ? { trackTitle: talk.track } : {}),
+      ...(talk.tags ? { tags: talk.tags } : {})
+    }
+  });
 
 const toOpenFeedbackSpeakers = (speakers: Record<string, OpenFeedbackSpeaker>, speaker: Speaker) => ({
   ...speakers,
@@ -50,7 +57,9 @@ const toOpenFeedbackSpeakers = (speakers: Record<string, OpenFeedbackSpeaker>, s
   }
 });
 
-export const generateOpenFeedback = (talks: Talks, speakers: Speakers): OpenFeedback => ({
-  sessions: talks.filter(onlyAllowedFeedbacks).reduce(toOpenFeedbackSessions, {}),
-  speakers: speakers.reduce(toOpenFeedbackSpeakers, {})
-});
+export const generateOpenFeedback =
+  (timeZone: string) =>
+  (talks: Talks, speakers: Speakers): OpenFeedback => ({
+    sessions: talks.filter(onlyAllowedFeedbacks).reduce(toOpenFeedbackSessions(timeZone), {}),
+    speakers: speakers.reduce(toOpenFeedbackSpeakers, {})
+  });
