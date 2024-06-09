@@ -21,7 +21,7 @@ export const Organizers = ({ serializedOrganizers }: { serializedOrganizers: str
       <div className='row gap-5 justify-content-center'>
         {organizers.map((organizer: Organizer) => (
           <div key={organizer.name} className='col-auto text-center'>
-            <Link href={organizer.url} target='_blank' rel='noopener noreferrer'>
+            <Link href={organizer.url} target='_blank' rel='noreferrer'>
               <Image
                 src={organizer.logo}
                 alt={`Visit ${organizer.name} website (opens in new tab)`}

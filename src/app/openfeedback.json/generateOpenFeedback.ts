@@ -10,8 +10,8 @@ dayjs.extend(tz);
 type OpenFeedbackSession = {
   id: string;
   title: string;
-  startTime: Date;
-  endTime: Date;
+  startTime: string;
+  endTime: string;
   track?: string;
   tags?: string[];
   speakers?: string[];
@@ -31,19 +31,18 @@ export type OpenFeedback = {
 
 const onlyAllowedFeedbacks = (talk: Talk) => talk.openFeedback !== false;
 
-const toOpenFeedbackSessions =
-  (timeZone: string) => (sessions: Record<string, OpenFeedbackSession>, talk: Talk, index: number) => ({
-    ...sessions,
-    [index]: {
-      id: `${index}`,
-      title: talk.title,
-      startTime: dayjs.tz(talk.date, timeZone).format(),
-      endTime: dayjs.tz(new Date(talk.date.getTime() + talk.duration * 60 * 1000), timeZone).format(),
-      ...(talk.speakers.length > 0 ? { speakers: talk.speakers.map(slugify) } : {}),
-      ...(talk.track ? { trackTitle: talk.track } : {}),
-      ...(talk.tags ? { tags: talk.tags } : {})
-    }
-  });
+const toOpenFeedbackSessions = (timeZone: string) => (sessions: Record<string, OpenFeedbackSession>, talk: Talk) => ({
+  ...sessions,
+  [slugify(talk.title)]: {
+    id: slugify(talk.title),
+    title: talk.title,
+    startTime: dayjs.tz(talk.date, timeZone).format(),
+    endTime: dayjs.tz(new Date(talk.date.getTime() + talk.duration * 60 * 1000), timeZone).format(),
+    ...(talk.speakers.length > 0 ? { speakers: talk.speakers.map(slugify) } : {}),
+    ...(talk.track ? { trackTitle: talk.track } : {}),
+    ...(talk.tags ? { tags: talk.tags } : {})
+  }
+});
 
 const toOpenFeedbackSpeakers = (speakers: Record<string, OpenFeedbackSpeaker>, speaker: Speaker) => ({
   ...speakers,

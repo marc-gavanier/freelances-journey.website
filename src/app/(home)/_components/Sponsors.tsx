@@ -23,7 +23,7 @@ export const Sponsors = ({ serializedSponsors }: { serializedSponsors: string })
       <div className='row gap-5 justify-content-center'>
         {sponsors.map((sponsor: Sponsor) => (
           <div key={sponsor.name} className='col-auto text-center'>
-            <Link href={sponsor.url} target='_blank' rel='noopener noreferrer'>
+            <Link href={sponsor.url} target='_blank' rel='noreferrer'>
               <Image
                 src={sponsor.logo}
                 alt={`Visit ${sponsor.name} website (opens in new tab)`}
