@@ -1,12 +1,12 @@
 'use client';
 
+import { HomeTranslation } from '@/app/(home)/_translations';
 import { Speaker } from '@/app/_schemas';
 import { useTranslation } from '@/app/_translation';
 import { asset } from '@/app/_utils';
 import Image from 'next/image';
 import { ReactElement } from 'react';
 import Markdown from 'react-markdown';
-import { HomeTranslation } from '../homeTranslation';
 
 export const Speakers = ({ serializedSpeakers }: { serializedSpeakers: string }): ReactElement => {
   const speakers: Speaker[] = Array.from(JSON.parse(serializedSpeakers));

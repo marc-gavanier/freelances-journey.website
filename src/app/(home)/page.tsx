@@ -1,3 +1,4 @@
+import { HomeTranslation } from '@/app/(home)/_translations';
 import { LANGUAGE_SETTINGS } from '@/app/_language';
 import { availableTranslations, Translate } from '@/app/_translation';
 import * as organizers from '@/data/organizers.json';
@@ -8,7 +9,6 @@ import type { Metadata } from 'next';
 import { ReactElement } from 'react';
 import './home.scss';
 import { About, Header, Hero, Organizers, Program, Spaces, Speakers, Sponsors, Tickets } from './_components';
-import { HomeTranslation } from './homeTranslation';
 
 export const generateMetadata = async (): Promise<Metadata> =>
   (await availableTranslations<HomeTranslation>('home')[LANGUAGE_SETTINGS.defaultLanguage]!()).metadata;
@@ -32,7 +32,7 @@ const Home = (): ReactElement => (
         </About>
       </section>
       <section id='program' className='bg-light-subtle py-6'>
-        <Program serializedSlots={JSON.stringify(slots)} disabled />
+        <Program serializedSlots={JSON.stringify(slots)} />
       </section>
       <section id='speakers' className='py-6'>
         <Speakers serializedSpeakers={JSON.stringify(speakers)} />

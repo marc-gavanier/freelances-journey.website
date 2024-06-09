@@ -8,6 +8,8 @@ export const slugify = (text: string): string =>
     .normalize('NFKD')
     .trim()
     .toLowerCase()
+    .replace("'", '-')
     .replace(/[^a-z0-9 -]/g, '')
     .replace(/\s+/g, '-')
-    .replace(/-+/g, '-');
+    .replace(/-+/g, '-')
+    .replace(/^-|-$/g, '');

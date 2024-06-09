@@ -1,24 +1,21 @@
-import { Translate } from '@/app/_translation';
+import { LANGUAGE_SETTINGS } from '@/app/_language';
+import { availableTranslations, Translate } from '@/app/_translation';
 import talksJson from '@/data/talks.json';
 import { Metadata } from 'next';
 import { ReactElement } from 'react';
-import { Talk, talksFromJSON } from './[slug]/talk';
 import { TalksList } from './_components';
+import { Talk, talksFromJSON } from './_transfer';
+import { TalksListTranslation } from './_translations';
 
-export const metadata: Metadata = {
-  title: 'Explore Talks | Freelances Journey 2024',
-  description:
-    'Browse the comprehensive list of talks at Your Conference 2023. Discover diverse topics presented by experts in various fields'
-};
+export const generateMetadata = async (): Promise<Metadata> =>
+  (await availableTranslations<TalksListTranslation>('talks')[LANGUAGE_SETTINGS.defaultLanguage]!()).metadata;
 
 const talks: Talk[] = talksFromJSON(talksJson);
 
-const TalksPage = (): ReactElement => {
-  return (
-    <main>
-      <TalksList talks={talks}></TalksList>
-    </main>
-  );
-};
+const TalksPage = (): ReactElement => (
+  <main className='container my-md-5 my-3'>
+    <TalksList talks={talks}></TalksList>
+  </main>
+);
 
 export default Translate(TalksPage, 'talks');

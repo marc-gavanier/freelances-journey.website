@@ -1,4 +1,4 @@
-import { slugify } from '@/app/_utils';
+import { slugify } from '../../_utils';
 
 type TalkBase = {
   title: string;

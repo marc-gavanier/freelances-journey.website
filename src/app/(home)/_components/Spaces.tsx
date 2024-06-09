@@ -1,10 +1,10 @@
 'use client';
 
+import { HomeTranslation } from '@/app/(home)/_translations';
 import { useTranslation } from '@/app/_translation';
 import { asset } from '@/app/_utils';
 import Image from 'next/image';
 import { ReactElement } from 'react';
-import { HomeTranslation } from '../homeTranslation';
 
 export const Spaces = (): ReactElement => {
   const { about: i18n }: HomeTranslation = useTranslation();

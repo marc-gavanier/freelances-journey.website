@@ -1,19 +1,9 @@
 {
-  "talks": {
-    "title": "Conférences",
-    "back": "Retour"
+  "metadata": {
+    "title": "Explorez les conférences | Freelances Journey 2024",
+    "description": "Parcourez la liste complète des conférences de Freelances Journey 2024, et découvrez les sujets proposés par nos experts du freelancing."
   },
-  "talkDetails": {
-    "by": "Par",
-    "durationUnit": "min",
-    "slides": "Diaporama",
-    "video": "Video",
-    "back": "Retour à la liste des conférences"
-  },
-  "notFound": {
-    "title": "Cette conférence n'existe pas",
-    "message": "Il n'y a pas de conférence associé à cet url, sélectionnez en une autre depuis",
-    "link": "la liste des conférences",
-    "back": "Retour à la liste des conférences"
-  }
+  "title": "Conférences",
+  "durationUnit": "min",
+  "back": "Retour à l'accueil"
 }

@@ -1,13 +1,13 @@
 'use client';
 
+import { HomeTranslation } from '@/app/(home)/_translations';
+import { LANGUAGE_SETTINGS, LanguageContext } from '@/app/_language';
+import { useTranslation } from '@/app/_translation';
 import { ReactElement, useContext } from 'react';
 import { NavDropdown } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { LANGUAGE_SETTINGS, LanguageContext } from '@/app/_language';
-import { useTranslation } from '@/app/_translation';
-import { HomeTranslation } from '../homeTranslation';
 
 const languagesMap: Map<string, string> = new Map<string, string>([
   ['de', '🇩🇪 Deutch (DE)'],

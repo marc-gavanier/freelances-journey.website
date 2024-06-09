@@ -1,12 +1,12 @@
 'use client';
 
+import { useTranslation } from '@/app/_translation';
+import { TalkDetailsTranslation } from '@/app/talks/_translations';
 import Link from 'next/link';
 import { ReactElement } from 'react';
-import { useTranslation } from '@/app/_translation';
-import { TalkTranslation } from '../talkTranslation';
 
 export const TalkNotFound = (): ReactElement => {
-  const { notFound: i18n }: TalkTranslation = useTranslation();
+  const { notFound: i18n }: TalkDetailsTranslation = useTranslation();
 
   return (
     <>

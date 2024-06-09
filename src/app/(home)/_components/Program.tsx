@@ -1,13 +1,19 @@
 'use client';
 
+import { HomeTranslation } from '@/app/(home)/_translations';
 import { Slot, Slots } from '@/app/_schemas';
 import { useTranslation } from '@/app/_translation';
 import Link from 'next/link';
 import { ReactElement } from 'react';
 import Markdown from 'react-markdown';
-import { HomeTranslation } from '../homeTranslation';
 
-export const Program = ({ serializedSlots, disabled }: { serializedSlots: string; disabled: boolean }): ReactElement => {
+export const Program = ({
+  serializedSlots,
+  disabled = false
+}: {
+  serializedSlots: string;
+  disabled?: boolean;
+}): ReactElement => {
   const slots: Slots = Array.from(JSON.parse(serializedSlots));
   const { talks: i18n }: HomeTranslation = useTranslation();
 
@@ -20,7 +26,7 @@ export const Program = ({ serializedSlots, disabled }: { serializedSlots: string
           </h2>
           <Markdown className='lead mt-4 mb-5'>{i18n.description}</Markdown>
           <div className='d-sm-block d-grid'>
-            <Link className={`btn btn-outline-primary btn-lg ${disabled && 'disabled'}`} href={'talks'}>
+            <Link className={`btn btn-outline-primary btn-lg ${disabled ? 'disabled' : null}`} href={'talks'}>
               {i18n.callToAction}
             </Link>
           </div>

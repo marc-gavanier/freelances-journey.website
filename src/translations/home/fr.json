@@ -61,26 +61,26 @@
   "talks": {
     "title": "Programme de la journée",
     "subtitle": "Retrouve la liste des événements prévus",
-    "description": "Le programme se déroule sur une journée de 08h30 à 18h00, des conférences au format 40 minutes s’enchaîneront tout au long de la journée.",
-    "callToAction": "Programme bientôt disponible",
+    "description": "Le programme se déroule sur une journée de 08h30 à 18h00, 6 conférences d'une durée de 40 minutes chacune s’enchaîneront tout au long de la journée : 3 le matin et 3 l'après-midi.",
+    "callToAction": "Voir le programme des conférences",
     "slots": {
       "09:00-09:30": {
         "title": "Accueil",
-        "description": "Récupère ton badge pour la journée, puis prend le temps du petit-déjeuner pour discuter un café à la main."
+        "description": "Récupère ton badge pour la journée, puis prend le temps pour discuter en attendant que tot le monde arrive."
       },
-      "09:30-12:30": {
+      "09:30-12:25": {
         "title": "Première partie",
         "description": "Plénière d’ouverture, suivi de 3 conférences."
       },
-      "12:20-13:30": {
+      "12:25-13:30": {
         "title": "Déjeuner",
-        "description": "Des food trucks disponibles sur place pour te permettre de te restaurer."
+        "description": "Des food trucks sont disponibles sur place pour te permettre de te restaurer."
       },
-      "13:30-17:10": {
+      "13:30-16:10": {
         "title": "Seconde partie",
-        "description": "4 conférences sont prévues l’après-midi."
+        "description": "3 conférences sont prévues l’après-midi."
       },
-      "17:10-18:00": {
+      "16:10-18:00": {
         "title": "Networking",
         "description": "Profite d’un moment de networking avant de terminer la journée."
       }
