@@ -21,8 +21,8 @@ describe('Generate Open Feedback JSON', () => {
 
     expect(openFeedback).toStrictEqual({
       sessions: {
-        '0': {
-          id: '0',
+        'entre-industrialisation-et-artisanat-le-metier-de-developpeur': {
+          id: 'entre-industrialisation-et-artisanat-le-metier-de-developpeur',
           title: 'Entre industrialisation et artisanat, le métier de développeur',
           startTime: '2024-05-22T14:00:00Z',
           endTime: '2024-05-22T14:45:00Z'
@@ -52,8 +52,8 @@ describe('Generate Open Feedback JSON', () => {
 
     expect(openFeedback).toStrictEqual({
       sessions: {
-        '0': {
-          id: '0',
+        'building-scalable-web-applications-with-microservices-architecture': {
+          id: 'building-scalable-web-applications-with-microservices-architecture',
           title: 'Building Scalable Web Applications with Microservices Architecture',
           startTime: '2024-05-22T14:00:00Z',
           endTime: '2024-05-22T14:45:00Z',
@@ -96,8 +96,8 @@ describe('Generate Open Feedback JSON', () => {
 
     expect(openFeedback).toStrictEqual({
       sessions: {
-        '0': {
-          id: '0',
+        'building-scalable-web-applications-with-microservices-architecture': {
+          id: 'building-scalable-web-applications-with-microservices-architecture',
           title: 'Building Scalable Web Applications with Microservices Architecture',
           startTime: '2024-05-22T14:00:00Z',
           endTime: '2024-05-22T14:45:00Z',
@@ -137,8 +137,8 @@ describe('Generate Open Feedback JSON', () => {
 
     expect(openFeedback).toStrictEqual({
       sessions: {
-        '0': {
-          id: '0',
+        'building-scalable-web-applications-with-microservices-architecture': {
+          id: 'building-scalable-web-applications-with-microservices-architecture',
           title: 'Building Scalable Web Applications with Microservices Architecture',
           startTime: '2024-05-22T14:00:00Z',
           endTime: '2024-05-22T14:45:00Z',
@@ -191,8 +191,8 @@ describe('Generate Open Feedback JSON', () => {
 
     expect(openFeedback).toStrictEqual({
       sessions: {
-        '0': {
-          id: '0',
+        'building-scalable-web-applications-with-microservices-architecture': {
+          id: 'building-scalable-web-applications-with-microservices-architecture',
           title: 'Building Scalable Web Applications with Microservices Architecture',
           startTime: '2024-05-22T14:00:00Z',
           endTime: '2024-05-22T14:45:00Z',

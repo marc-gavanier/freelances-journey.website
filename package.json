@@ -19,6 +19,7 @@
     "data.schema.speakers": "ts-json-schema-generator -p 'src/app/_schemas/speakers.ts' -t 'Speakers' -o 'src/schemas/data/speakers.schema.json'",
     "data.schema.sponsors": "ts-json-schema-generator -p 'src/app/_schemas/sponsors.ts' -t 'Sponsors' -o 'src/schemas/data/sponsors.schema.json'",
     "data.schema.talks": "ts-json-schema-generator -p 'src/app/_schemas/talks.ts' -t 'Talks' -o 'src/schemas/data/talks.schema.json'",
+    "data.schema.metadata": "ts-json-schema-generator -p 'src/app/_schemas/metadata.ts' -t 'Metadata' -o 'src/schemas/data/metadata.schema.json'",
     "translation.schema.home": "ts-json-schema-generator -p 'src/app/(home)/_translations/homeTranslation.ts' -t 'HomeTranslation' -o 'src/schemas/transation/home.schema.json'",
     "translation.schema.talks-list": "ts-json-schema-generator -p 'src/app/talks/_translations/talksListTranslation.ts' -t 'TalksListTranslation' -o 'src/schemas/transations/talks-list.schema.json'",
     "translation.schema.talk-details": "ts-json-schema-generator -p 'src/app/talks/_translations/talkDetailsTranslation.ts' -t 'TalkDetailsTranslation' -o 'src/schemas/transations/talk-details.schema.json'"

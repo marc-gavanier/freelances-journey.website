@@ -4,6 +4,7 @@ import { availableTranslations, Translate } from '@/app/_translation';
 import { bySlug } from '@/app/_utils';
 import { Talk, talksFromJSON } from '@/app/talks/_transfer';
 import { TalkDetailsTranslation } from '@/app/talks/_translations';
+import metadataJson from '@/data/metadata.json';
 import speakersJson from '@/data/speakers.json';
 import talksJson from '@/data/talks.json';
 import { Metadata } from 'next';
@@ -32,7 +33,12 @@ const TalkPage = ({ params }: { params: Talk }): ReactElement => {
   return (
     <main className='container my-md-5 my-3'>
       {talk ? (
-        <TalkDetails talk={talk} speakers={speakers} showLanguage={false} showTrack={false}></TalkDetails>
+        <TalkDetails
+          talk={talk}
+          speakers={speakers}
+          showLanguage={false}
+          showTrack={false}
+          openFeedbackEventID={metadataJson.openFeedbackEventID}></TalkDetails>
       ) : (
         <TalkNotFound></TalkNotFound>
       )}

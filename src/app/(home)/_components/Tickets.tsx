@@ -48,7 +48,7 @@ export const Tickets = ({ ticketsConfiguration }: TicketsProps): ReactElement =>
                     <Link
                       className={`btn btn-primary ${ticket.link == null && 'disabled'}`}
                       target='_blank'
-                      rel='noopener noreferrer'
+                      rel='noreferrer'
                       href={ticket.link ?? '#'}>
                       {i18n.callToAction}
                     </Link>

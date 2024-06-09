@@ -41,25 +41,25 @@ export const Speakers = ({ serializedSpeakers }: { serializedSpeakers: string })
             {speaker.networks && (
               <div className='btn-group mt-n4'>
                 {speaker.networks.facebook && (
-                  <a href={speaker.networks.facebook} className='btn btn-light p-2' target='_blank' rel='noopener noreferrer'>
+                  <a href={speaker.networks.facebook} className='btn btn-light p-2' target='_blank' rel='noreferrer'>
                     <span role='img' className='text-secondary opacity-50 ri-facebook-fill' aria-hidden='true' />
                     <span className='visually-hidden'>Facebook (opens a new window)</span>
                   </a>
                 )}
                 {speaker.networks.instagram && (
-                  <a href={speaker.networks.instagram} className='btn btn-light p-2' target='_blank' rel='noopener noreferrer'>
+                  <a href={speaker.networks.instagram} className='btn btn-light p-2' target='_blank' rel='noreferrer'>
                     <span role='img' className='text-secondary opacity-50 ri-instagram-fill' aria-hidden='true' />
                     <span className='visually-hidden'>Instagram (opens a new window)</span>
                   </a>
                 )}
                 {speaker.networks.x && (
-                  <a href={speaker.networks.x} className='btn btn-light p-2' target='_blank' rel='noopener noreferrer'>
+                  <a href={speaker.networks.x} className='btn btn-light p-2' target='_blank' rel='noreferrer'>
                     <span role='img' className='text-secondary opacity-50 ri-twitter-x-line' aria-hidden='true' />
                     <span className='visually-hidden'>X (opens a new window)</span>
                   </a>
                 )}
                 {speaker.networks.linkedin && (
-                  <a href={speaker.networks.linkedin} className='btn btn-light p-2' target='_blank' rel='noopener noreferrer'>
+                  <a href={speaker.networks.linkedin} className='btn btn-light p-2' target='_blank' rel='noreferrer'>
                     <span role='img' className='text-secondary opacity-50 ri-linkedin-fill' aria-hidden='true' />
                     <span className='visually-hidden'>LinkedIn (opens a new window)</span>
                   </a>

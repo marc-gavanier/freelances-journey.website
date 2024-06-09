@@ -1,9 +1,8 @@
 'use client';
 
-import { Speaker } from '@/app/_schemas';
+import { Speaker, Talk } from '@/app/_schemas';
 import { useTranslation } from '@/app/_translation';
-import { asset } from '@/app/_utils';
-import { Talk } from '@/app/talks/_transfer';
+import { asset, slugify } from '@/app/_utils';
 import { TalkDetailsTranslation } from '@/app/talks/_translations';
 import dayjs from 'dayjs';
 import Image from 'next/image';
@@ -11,14 +10,19 @@ import Link from 'next/link';
 import { ReactElement } from 'react';
 import Markdown from 'react-markdown';
 
+const openFeedbackUrl = (openFeedbackEventID: string, { date, title }: Talk) =>
+  `https://openfeedback.io/${openFeedbackEventID}/${dayjs(date).format('YYYY-MM-DD')}/${slugify(title)}`;
+
 export const TalkDetails = ({
   talk,
   speakers,
+  openFeedbackEventID,
   showLanguage = true,
   showTrack = true
 }: {
   talk: Talk;
   speakers: Speaker[];
+  openFeedbackEventID?: string;
   showLanguage?: boolean;
   showTrack?: boolean;
 }): ReactElement => {
@@ -57,18 +61,27 @@ export const TalkDetails = ({
                   title='Linkedin'
                   className='btn btn-secondary p-0'
                   target='_blank'
-                  rel='noopener noreferrer'>
+                  rel='noreferrer'>
                   <span role='img' className='ri-linkedin-fill ri-lg' aria-hidden='true' />
                   <span className='visually-hidden'>LinkedIn (opens a new window)</span>
                 </a>
               )}
             </div>
           </div>
-          <div className='fs-4 fw-bold col-lg-auto col-12 text-end d-lg-block d-inline-flex gap-3 justify-content-center flex-wrap mt-lg-0 mt-3'>
+          <div className='fs-4 fw-bold col-lg-auto col-12 text-end d-lg-flex flex-lg-column d-inline-flex gap-lg-2 gap-4 justify-content-center flex-wrap mt-lg-0 mt-3'>
             <div>{talk.room}</div>
             <div>
               {dayjs(talk.date).format('HH:mm')} - {talk.duration} {i18n.durationUnit}
             </div>
+            {openFeedbackEventID != null && talk.openFeedback !== false && (
+              <Link
+                className='btn btn-sm btn-primary'
+                target='_blank'
+                rel='noreferrer'
+                href={openFeedbackUrl(openFeedbackEventID, talk)}>
+                OpenFeedback
+              </Link>
+            )}
           </div>
         </div>
       ))}
@@ -85,14 +98,14 @@ export const TalkDetails = ({
         <ul>
           {talk.slidesLink && (
             <li>
-              <a href={talk.slidesLink} target='_blank' rel='noopener noreferrer'>
+              <a href={talk.slidesLink} target='_blank' rel='noreferrer'>
                 {i18n.slides}
               </a>
             </li>
           )}
           {talk.videoLink && (
             <li>
-              <a href={talk.videoLink} target='_blank' rel='noopener noreferrer'>
+              <a href={talk.videoLink} target='_blank' rel='noreferrer'>
                 {i18n.video}
               </a>
             </li>
