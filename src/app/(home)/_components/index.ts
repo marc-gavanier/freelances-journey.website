@@ -1,4 +1,5 @@
 export * from './About';
+export * from './Access';
 export * from './Header';
 export * from './Hero';
 export * from './Organizers';

@@ -20,6 +20,7 @@
     "data.schema.sponsors": "ts-json-schema-generator -p 'src/app/_schemas/sponsors.ts' -t 'Sponsors' -o 'src/schemas/data/sponsors.schema.json'",
     "data.schema.talks": "ts-json-schema-generator -p 'src/app/_schemas/talks.ts' -t 'Talks' -o 'src/schemas/data/talks.schema.json'",
     "data.schema.metadata": "ts-json-schema-generator -p 'src/app/_schemas/metadata.ts' -t 'Metadata' -o 'src/schemas/data/metadata.schema.json'",
+    "data.schema.access-and-transport": "ts-json-schema-generator -p 'src/app/_schemas/access-and-transport.ts' -t 'AccessAndTransport' -o 'src/schemas/data/access-and-transport.schema.json'",
     "translation.schema.home": "ts-json-schema-generator -p 'src/app/(home)/_translations/homeTranslation.ts' -t 'HomeTranslation' -o 'src/schemas/transation/home.schema.json'",
     "translation.schema.talks-list": "ts-json-schema-generator -p 'src/app/talks/_translations/talksListTranslation.ts' -t 'TalksListTranslation' -o 'src/schemas/transations/talks-list.schema.json'",
     "translation.schema.talk-details": "ts-json-schema-generator -p 'src/app/talks/_translations/talkDetailsTranslation.ts' -t 'TalkDetailsTranslation' -o 'src/schemas/transations/talk-details.schema.json'"
@@ -28,10 +29,12 @@
     "bootstrap": "^5.3.3",
     "dayjs": "^1.11.11",
     "dotenv": "^16.4.5",
+    "maplibre-gl": "^4.4.0",
     "next": "14.2.3",
     "react": "18.3.1",
     "react-bootstrap": "^2.10.2",
     "react-dom": "18.3.1",
+    "react-map-gl": "^7.1.7",
     "react-markdown": "^9.0.1"
   },
   "devDependencies": {

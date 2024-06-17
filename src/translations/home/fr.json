@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "title": "Freelances Journey 2024",
+    "title": "Freelances Journey",
     "description": "La journée lyonnaise qui met à l’honneur l’aventure du freelancing. Réserve ton billet gratuitement !"
   },
   "hero": {
@@ -10,11 +10,12 @@
     "callToAction": "Réserve ton billet gratuitement"
   },
   "header": {
-    "brand": "Freelances Journey 2024",
+    "brand": "Freelances Journey",
     "about": "À propos",
     "program": "Programme",
     "speakers": "Conférenciers",
     "tickets": "Billets",
+    "location": "Le lieu",
     "sponsors": "Soutiens"
   },
   "organizers": {
