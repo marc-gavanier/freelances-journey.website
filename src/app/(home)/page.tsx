@@ -1,6 +1,7 @@
 import { HomeTranslation } from '@/app/(home)/_translations';
 import { LANGUAGE_SETTINGS } from '@/app/_language';
 import { availableTranslations, Translate } from '@/app/_translation';
+import * as accessAndTransport from '@/data/access-and-transport.json';
 import * as organizers from '@/data/organizers.json';
 import * as slots from '@/data/slots.json';
 import * as speakers from '@/data/speakers.json';
@@ -8,7 +9,7 @@ import * as sponsors from '@/data/sponsors.json';
 import type { Metadata } from 'next';
 import { ReactElement } from 'react';
 import './home.scss';
-import { About, Header, Hero, Organizers, Program, Spaces, Speakers, Sponsors, Tickets } from './_components';
+import { About, Access, Header, Hero, Organizers, Program, Spaces, Speakers, Sponsors, Tickets } from './_components';
 
 export const generateMetadata = async (): Promise<Metadata> =>
   (await availableTranslations<HomeTranslation>('home')[LANGUAGE_SETTINGS.defaultLanguage]!()).metadata;
@@ -40,7 +41,10 @@ const Home = (): ReactElement => (
       <section id='tickets' className='bg-light py-6'>
         <Tickets ticketsConfiguration={[{ variant: 'primary-subtle' }]} />
       </section>
-      <section id='sponsors' className='bg-light pb-6'>
+      <section id='location' className='mt-6'>
+        <Access serializedAccessAndTransport={JSON.stringify(accessAndTransport)} />
+      </section>
+      <section id='sponsors' className='bg-light py-6'>
         <Sponsors serializedSponsors={JSON.stringify(sponsors)} />
       </section>
     </main>

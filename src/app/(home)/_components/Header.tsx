@@ -41,6 +41,7 @@ export const Header = (): ReactElement => {
             <Nav.Link href='#program'>{i18n.program}</Nav.Link>
             <Nav.Link href='#speakers'>{i18n.speakers}</Nav.Link>
             <Nav.Link href='#tickets'>{i18n.tickets}</Nav.Link>
+            <Nav.Link href='#location'>{i18n.location}</Nav.Link>
             <Nav.Link href='#sponsors'>{i18n.sponsors}</Nav.Link>
             {LANGUAGE_SETTINGS.availableLanguages.length > 1 && (
               <NavDropdown className='bg-opacity-10' title={`${selectedLanguage.toUpperCase()}`} id='translation-dropdown'>
