@@ -1,6 +1,6 @@
-import { Language, LANGUAGE_SETTINGS } from '@/app/_language';
 import { ReactElement, ReactNode } from 'react';
-import '../styles/styles.scss';
+import { Language, LANGUAGE_SETTINGS } from '@/features/language';
+import '@/styles/styles.scss';
 
 const RootLayout = async ({ children }: { children: ReactNode }): Promise<ReactElement> => (
   <html lang={LANGUAGE_SETTINGS.defaultLanguage}>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JsonSchemaMappingsProjectConfiguration">
+    <state>
+      <map>
+        <entry key="data.access-and-transport.schema">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="New Schema" />
+              <option name="name" value="data.access-and-transport.schema" />
+              <option name="relativePathToSchema" value="src/schemas/data/access-and-transport.schema.json" />
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="path" value="src/data/2024/access-and-transport.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="src/data/2025/access-and-transport.json" />
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="data.organizers.schema">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="New Schema" />
+              <option name="name" value="data.organizers.schema" />
+              <option name="relativePathToSchema" value="src/schemas/data/organizers.schema.json" />
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="path" value="src/data/2024/organizers.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="src/data/2025/organizers.json" />
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="data.slots.schema">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="New Schema" />
+              <option name="name" value="data.slots.schema" />
+              <option name="relativePathToSchema" value="src/schemas/data/slots.schema.json" />
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="path" value="src/data/2024/slots.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="src/data/2025/slots.json" />
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="data.speakers.schema">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="New Schema" />
+              <option name="name" value="data.speakers.schema" />
+              <option name="relativePathToSchema" value="src/schemas/data/speakers.schema.json" />
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="path" value="src/data/2024/speakers.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="src/data/2025/speakers.json" />
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="data.sponsors.schema">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="New Schema" />
+              <option name="name" value="data.sponsors.schema" />
+              <option name="relativePathToSchema" value="src/schemas/data/sponsors.schema.json" />
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="path" value="src/data/2024/sponsors.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="src/data/2025/sponsors.json" />
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="data.talks.schema">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="New Schema" />
+              <option name="name" value="data.talks.schema" />
+              <option name="relativePathToSchema" value="src/schemas/data/talks.schema.json" />
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="path" value="src/data/2024/talks.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="src/data/2025/metadata.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="src/data/2025/talks.json" />
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="translation.home.schema">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="New Schema" />
+              <option name="name" value="translation.home.schema" />
+              <option name="relativePathToSchema" value="src/schemas/transation/home.schema.json" />
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="path" value="src/translations/2024/home/fr.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="src/translations/2025/home/fr.json" />
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="translation.talk-details.schema">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="New Schema" />
+              <option name="name" value="translation.talk-details.schema" />
+              <option name="relativePathToSchema" value="src/schemas/transation/talk-details.schema.json" />
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="path" value="src/translations/2024/talks/[slug]/fr.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="src/translations/2025/talks/[slug]/fr.json" />
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="translation.talks-list.schema">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="New Schema" />
+              <option name="name" value="translation.talks-list.schema" />
+              <option name="relativePathToSchema" value="src/schemas/transation/talks-list.schema.json" />
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="path" value="src/translations/2024/talks/fr.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="src/translations/2025/talks/fr.json" />
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+      </map>
+    </state>
+  </component>
+</project>

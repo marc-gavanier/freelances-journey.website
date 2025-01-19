@@ -1,13 +1,9 @@
-# Ignore Versionning:
-.git
-# Ignore IDE:
-.idea
-.vscode
-# Ignore dependencies:
-node_modules
-# Ignore artifacts:
-.next
-build
-dist
-coverage
-out
+.git/
+.idea/
+.vscode/
+node_modules/
+.next/
+build/
+dist/
+coverage/
+out/
