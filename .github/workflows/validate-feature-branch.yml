@@ -24,151 +24,121 @@ jobs:
   prettier:
     name: Prettier
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
-
+        uses: actions/checkout@v4
       - name: Install pnpm
-        uses: pnpm/action-setup@v2
+        uses: pnpm/action-setup@v4
         with:
-          version: 8.6.7
-
+          version: 10
       - name: Set up Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: '18.x'
+          node-version: 22
           cache: 'pnpm'
-
       - name: Install dependencies
         run: pnpm install
-
       - name: Prettier
         run: pnpm prettier.ci
 
   eslint:
     name: ESLint
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
-
+        uses: actions/checkout@v4
       - name: Install pnpm
-        uses: pnpm/action-setup@v2
+        uses: pnpm/action-setup@v4
         with:
-          version: 8.6.7
-
+          version: 10
       - name: Set up Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: '18.x'
+          node-version: 22
           cache: 'pnpm'
-
       - name: Install dependencies
         run: pnpm install
-
       - name: Lint
         run: pnpm lint.es
 
   stylelint:
     name: Stylelint
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
-
+        uses: actions/checkout@v4
       - name: Install pnpm
-        uses: pnpm/action-setup@v2
+        uses: pnpm/action-setup@v4
         with:
-          version: 8.6.7
-
+          version: 10
       - name: Set up Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: '18.x'
+          node-version: 22
           cache: 'pnpm'
-
       - name: Install dependencies
         run: pnpm install
-
       - name: Lint
         run: pnpm lint.style
 
   commitlint:
     name: CommitLint
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
       - name: Install pnpm
-        uses: pnpm/action-setup@v2
+        uses: pnpm/action-setup@v4
         with:
-          version: 8.6.7
-
+          version: 10
       - name: Set up Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: '18.x'
+          node-version: 22
           cache: 'pnpm'
-
       - name: Install dependencies
         run: pnpm install
-
       - name: Lint
         run: pnpm lint.commit
 
   test:
     name: Test
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
-
+        uses: actions/checkout@v4
       - name: Install pnpm
-        uses: pnpm/action-setup@v2
+        uses: pnpm/action-setup@v4
         with:
-          version: 8.6.7
-
+          version: 10
       - name: Set up Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: '18.x'
+          node-version: 22
           cache: 'pnpm'
-
       - name: Install dependencies
         run: pnpm install
-
       - name: Test
         run: pnpm test
 
   build:
     name: Build
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
-
+        uses: actions/checkout@v4
       - name: Install pnpm
-        uses: pnpm/action-setup@v2
+        uses: pnpm/action-setup@v4
         with:
-          version: 8.6.7
-
+          version: 10
       - name: Set up Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: '18.x'
+          node-version: 22
           cache: 'pnpm'
-
       - name: Install dependencies
         run: pnpm install
-
       - name: Build
         run: pnpm build

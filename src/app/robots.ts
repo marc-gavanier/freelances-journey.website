@@ -1,5 +1,7 @@
 import { MetadataRoute } from 'next';
-import { urlFromEnv } from './_utils';
+import { urlFromEnv } from '@/features/web';
+
+export const dynamic = 'force-static';
 
 const robots = (): MetadataRoute.Robots => ({
   rules: {

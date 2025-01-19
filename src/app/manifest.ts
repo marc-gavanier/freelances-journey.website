@@ -2,6 +2,8 @@ import fs from 'fs';
 import { MetadataRoute } from 'next';
 import path from 'path';
 
+export const dynamic = 'force-static';
+
 const iconsDirectory = path.join(process.cwd(), 'public/images/icons');
 const listFilesInDirectory = (dir: string): string[] => fs.readdirSync(dir).map((file) => path.join('/images/icons', file));
 

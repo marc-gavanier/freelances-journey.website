@@ -1,0 +1,116 @@
+{
+  "metadata": {
+    "title": "Freelances Journey 2024",
+    "description": "La journée lyonnaise qui met à l’honneur l’aventure du freelancing. Réserve ton billet gratuitement !"
+  },
+  "hero": {
+    "title": "Freelances Journey",
+    "nextEditionDate": "Lyon - 21 juin 2024",
+    "description": "La journée lyonnaise qui met à l’honneur l’aventure du freelancing.",
+    "callToAction": "Réserve ton billet gratuitement"
+  },
+  "header": {
+    "brand": "Freelances Journey 2024",
+    "about": "À propos",
+    "program": "Programme",
+    "speakers": "Conférenciers",
+    "tickets": "Billets",
+    "location": "Le lieu",
+    "sponsors": "Soutiens",
+    "previous": "Éditions"
+  },
+  "organizers": {
+    "title": "Freelances Journey est",
+    "subtitle": "Organisé par"
+  },
+  "about": {
+    "title": "Se lancer en freelance, c'est embarquer dans une aventure épique remplie de grands et petits défis à surmonter",
+    "subtitle": "À propos de l'aventure",
+    "description": "Mais devine quoi&nbsp;? Ce n'est pas une aventure qui doit obligatoirement être solo, et les meilleurs conseils se cachent souvent parmi nos pairs freelances&nbsp;!\n\nImagine-toi dans un village éphémère dédié aux freelances, où chaque étape de cette aventure palpitante a son propre quartier d’expertise.\nRencontre d'autres freelances, échange des idées, et connecte-toi avec des acteurs experts et influents prêts à partager leurs connaissances pour te propulser vers le succès et la sérénité.\n\n**Freelances Journey**, c'est bien plus qu'un événement, c'est une journée immersive où le freelancing devient une expérience collective. Prépare-toi à explorer, apprendre, et te connecter avec d'autres aventuriers du freelancing dans une ambiance fun et inspirante&nbsp;! \n\nAmis, freelances et freelances en devenir, vous êtes les bienvenus&nbsp;!",
+    "learnMore": "En savoir plus",
+    "spaces": {
+      "title": "Les espaces disponibles",
+      "subtitle": "Le village des freelances",
+      "items": [
+        {
+          "name": "Bien gérer sa partie administrative",
+          "description": "Obtient des conseils pratiques sur la comptabilité, la facturation, les démarches administratives, et bien plus encore.",
+          "image": "home/about/gestion-administrative.webp"
+        },
+        {
+          "name": "Trouver des clients",
+          "description": "Découvre des stratégies efficaces de prospection et du réseautage pour développer ton portefeuille de clients.",
+          "image": "home/about/trouver-des-clients.webp"
+        },
+        {
+          "name": "Se rendre visible",
+          "description": "Marketing personnel, création de contenu et de gestion de ton image, explore les façons de renforcer ta présence en ligne et hors ligne.",
+          "image": "home/about/se-rendre-visible.webp"
+        },
+        {
+          "name": "Prendre soin de sa vie perso et de sa vie pro",
+          "description": "Prend une pause bien méritée dans cet espace dédié au bien-être et à l'équilibre entre vie pro et vie perso.",
+          "image": "home/about/lifestyle.webp"
+        },
+        {
+          "name": "Optimiser ses revenus",
+          "description": "Explore des astuces pour optimiser tes revenus en freelance (ACRE, ARE, TVA, Investissement, PER...)",
+          "image": "home/about/banques-et-finances.webp"
+        }
+      ]
+    }
+  },
+  "talks": {
+    "title": "Programme de la journée",
+    "subtitle": "Retrouve la liste des événements prévus",
+    "description": "Le programme se déroule sur une journée de 09h00 à 18h00, 6 conférences d'une durée de 40 minutes chacune s’enchaîneront tout au long de la journée : 3 le matin et 3 l'après-midi.",
+    "callToAction": "Voir le programme des conférences",
+    "slots": {
+      "09:00-09:30": {
+        "title": "Accueil",
+        "description": "Récupère ton badge pour la journée, puis prend le temps pour discuter en attendant que tot le monde arrive."
+      },
+      "09:30-12:25": {
+        "title": "Première partie",
+        "description": "Plénière d’ouverture, suivi de 3 conférences."
+      },
+      "12:25-13:30": {
+        "title": "Déjeuner",
+        "description": "Un food truck est disponible sur place pour te permettre de te restaurer."
+      },
+      "13:30-16:10": {
+        "title": "Seconde partie",
+        "description": "3 conférences sont prévues l’après-midi."
+      },
+      "16:10-18:00": {
+        "title": "Networking",
+        "description": "Profite d’un moment de networking avant de terminer la journée."
+      }
+    }
+  },
+  "speakers": {
+    "title": "La crème de la crème des experts sur le freelancing",
+    "subtitle": "Les conférenciers",
+    "description": "Des ateliers et des talk de qualité, animés par les créateurs de contenu plébiscités par les freelances auront lieu tout au long de la journée.",
+    "callToAction": "Voir tous les orateurs"
+  },
+  "tickets": {
+    "title": "Réserve ton billet gratuitement",
+    "subtitle": "Participe à l'aventure",
+    "description": "N'hésites pas à partager l'évènement à ton réseau avec le hashtag **#FreelancesJourney**.",
+    "callToAction": "Je prends mon billet",
+    "ticketTypes": [
+      {
+        "name": "Code d'accès requis",
+        "description": "Rendez-vous sur **billetweb.fr/freelances-journey** pour réserver ton billet.",
+        "price": "Gratuit",
+        "link": "https://www.billetweb.fr/freelances-journey"
+      }
+    ]
+  },
+  "sponsors": {
+    "title": "Sponsors de l'aventure",
+    "subtitle": "Merci pour leur soutien !",
+    "description": "Sans le soutien de nos sponsors, **Freelances Journey** n'aurait pas pu voir le jour, nous tenons ici à les remercier tout particulièrement pour leur soutien."
+  }
+}
