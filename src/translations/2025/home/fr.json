@@ -1,7 +1,10 @@
 {
   "metadata": {
     "title": "Freelances Journey 2025",
-    "description": "La journée lyonnaise qui met à l’honneur l’aventure du freelancing. Réserve ton billet gratuitement !"
+    "description": "La journée lyonnaise qui met à l’honneur l’aventure du freelancing. Réserve ton billet gratuitement !",
+    "verification": {
+      "google": "tzHW06UkcQ9lZH_75J7RAKCjSa5USJ43y9PCbLvQ66s"
+    }
   },
   "hero": {
     "title": "Freelances Journey",
@@ -63,7 +66,7 @@
   "talks": {
     "title": "Programme de la journée",
     "subtitle": "Retrouve la liste des événements prévus",
-    "description": "Le programme se déroule sur une journée de 09h00 à 18h00, 6 conférences d'une durée de 40 minutes chacune s’enchaîneront tout au long de la journée : 3 le matin et 3 l'après-midi.",
+    "description": "Le programme se déroule sur une journée de 09h00 à 18h00, 5 conférences s’enchaîneront tout au long de la journée : 3 le matin et 2 l'après-midi.",
     "callToAction": "Programme des conférences bientôt disponible",
     "slots": {
       "09:00-09:30": {
@@ -80,7 +83,7 @@
       },
       "13:30-16:10": {
         "title": "Seconde partie",
-        "description": "3 conférences sont prévues l’après-midi."
+        "description": "2 conférences sont prévues l’après-midi."
       },
       "16:10-18:00": {
         "title": "Networking",
