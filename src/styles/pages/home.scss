@@ -10,10 +10,22 @@
 .bg-welcome {
   background:
     top 15% left 10% repeat-x url($asset-prefix + '/images/home/welcome/cloud.webp'),
-    bottom 18% right 20% no-repeat url($asset-prefix + '/images/home/welcome/guy-and-cat.webp'),
+    bottom 18% right 40% no-repeat url($asset-prefix + '/images/home/welcome/person-1.svg'),
+    bottom 18% right 30% no-repeat url($asset-prefix + '/images/home/welcome/person-4.svg'),
+    bottom 18% right 20% no-repeat url($asset-prefix + '/images/home/welcome/person-3.svg'),
+    bottom 18% right 10% no-repeat url($asset-prefix + '/images/home/welcome/person-2.svg'),
     bottom repeat-x url($asset-prefix + '/images/home/welcome/bush.webp'),
     bottom repeat-x url($asset-prefix + '/images/home/welcome/ground.svg'),
     linear-gradient(#00a2ff, #6beffe);
+  background-size:
+    auto,
+    6% auto,
+    6% auto,
+    6% auto,
+    6% auto,
+    auto,
+    auto,
+    auto;
   min-width: 1200px;
   min-height: 800px;
 }
