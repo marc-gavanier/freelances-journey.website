@@ -1,11 +1,11 @@
 'use client';
 
-import { ReactElement } from 'react';
-import Image from 'next/image';
-import Link from 'next/link';
-import Markdown from 'react-markdown';
 import { Sponsor } from '@/features/conference/domain';
 import { useTranslation } from '@/features/translation';
+import Image from 'next/image';
+import Link from 'next/link';
+import { ReactElement } from 'react';
+import Markdown from 'react-markdown';
 import { HomeTranslation } from './home.translation';
 
 export const Sponsors = ({ serializedSponsors }: { serializedSponsors: string }): ReactElement => {
@@ -18,7 +18,9 @@ export const Sponsors = ({ serializedSponsors }: { serializedSponsors: string })
         <h2>
           <small>{i18n.title}</small> {i18n.subtitle}
         </h2>
-        <Markdown className='lead my-5'>{i18n.description}</Markdown>
+        <div className='lead my-5'>
+          <Markdown>{i18n.description}</Markdown>
+        </div>
       </div>
       <div className='row gap-5 justify-content-center'>
         {sponsors.map((sponsor: Sponsor) => (

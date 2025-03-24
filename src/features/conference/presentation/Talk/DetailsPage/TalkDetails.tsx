@@ -1,13 +1,13 @@
 'use client';
 
-import { ReactElement } from 'react';
-import Image from 'next/image';
-import Link from 'next/link';
-import Markdown from 'react-markdown';
-import dayjs from 'dayjs';
+import { Speaker, Talk } from '@/features/conference/domain';
 import { useTranslation } from '@/features/translation';
 import { asset, slugify } from '@/features/web';
-import { Speaker, Talk } from '@/features/conference/domain';
+import dayjs from 'dayjs';
+import Image from 'next/image';
+import Link from 'next/link';
+import { ReactElement } from 'react';
+import Markdown from 'react-markdown';
 import { TalkDetailsTranslation } from './talk-details.translation';
 
 const openFeedbackUrl = (openFeedbackEventID: string, { date, title }: Talk) =>
@@ -86,7 +86,9 @@ export const TalkDetails = ({
         </div>
       ))}
       {showTrack && <i>{talk.track}</i>}
-      <Markdown className='lead mt-5'>{talk.description}</Markdown>
+      <div className='lead mt-5'>
+        <Markdown>{talk.description}</Markdown>
+      </div>
       <ul className='my-4 p-0 fw-bold d-flex flex-sm-row flex-column gap-2'>
         {talk.tags?.map((tag: string) => (
           <li className='list-unstyled' key={tag}>

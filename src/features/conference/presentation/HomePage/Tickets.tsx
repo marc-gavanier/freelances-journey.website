@@ -1,10 +1,10 @@
 'use client';
 
-import { ReactElement } from 'react';
+import { useTranslation } from '@/features/translation';
 import Link from 'next/link';
+import { ReactElement } from 'react';
 import { Badge } from 'react-bootstrap';
 import Markdown from 'react-markdown';
-import { useTranslation } from '@/features/translation';
 import { HomeTranslation } from './home.translation';
 
 type TicketsProps = {
@@ -21,7 +21,9 @@ export const Tickets = ({ ticketsConfiguration }: TicketsProps): ReactElement =>
           <h2>
             <small>{i18n.subtitle}</small> {i18n.title}
           </h2>
-          <Markdown className='lead my-4'>{i18n.description}</Markdown>
+          <div className='lead my-4'>
+            <Markdown>{i18n.description}</Markdown>
+          </div>
         </div>
       </div>
       <div className='row mt-0 gx-xl-6 gy-6 my-5'>

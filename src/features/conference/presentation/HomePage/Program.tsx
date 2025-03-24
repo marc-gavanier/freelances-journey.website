@@ -1,11 +1,11 @@
 'use client';
 
-import { ReactElement } from 'react';
-import Link from 'next/link';
-import { usePathname } from 'next/navigation';
-import Markdown from 'react-markdown';
 import { Slot, Slots } from '@/features/conference/domain';
 import { useTranslation } from '@/features/translation';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
+import { ReactElement } from 'react';
+import Markdown from 'react-markdown';
 import { HomeTranslation } from './home.translation';
 
 export const Program = ({
@@ -26,7 +26,9 @@ export const Program = ({
           <h2>
             <small>{i18n.title}</small> {i18n.subtitle}
           </h2>
-          <Markdown className='lead mt-4 mb-5'>{i18n.description}</Markdown>
+          <div className='lead mt-4 mb-5'>
+            <Markdown>{i18n.description}</Markdown>
+          </div>
           <div className='d-sm-block d-grid'>
             <Link className={`btn btn-outline-primary btn-lg ${disabled ? 'disabled' : null}`} href={`.${pathname}/talks`}>
               {i18n.callToAction}
