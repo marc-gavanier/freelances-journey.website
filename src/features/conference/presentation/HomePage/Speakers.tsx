@@ -1,11 +1,11 @@
 'use client';
 
-import { ReactElement } from 'react';
-import Image from 'next/image';
-import Markdown from 'react-markdown';
 import { Speaker } from '@/features/conference/domain';
 import { useTranslation } from '@/features/translation';
 import { asset } from '@/features/web';
+import Image from 'next/image';
+import { ReactElement } from 'react';
+import Markdown from 'react-markdown';
 import { HomeTranslation } from './home.translation';
 
 export const Speakers = ({
@@ -25,7 +25,9 @@ export const Speakers = ({
           <h2>
             <small>{i18n.title}</small> {i18n.subtitle}
           </h2>
-          <Markdown className='lead my-4'>{i18n.description}</Markdown>
+          <div className='lead my-4'>
+            <Markdown>{i18n.description}</Markdown>
+          </div>
         </div>
       </div>
       <div className='row py-5 g-xl-5 text-center justify-content-center'>
