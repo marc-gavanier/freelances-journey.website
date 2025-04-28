@@ -1,13 +1,14 @@
-import { ReactElement } from 'react';
-import type { Metadata } from 'next';
-import { LANGUAGE_SETTINGS } from '@/features/language';
-import { availableTranslations, Translate } from '@/features/translation';
+import * as accessAndTransport from '@/data/2025/access-and-transport.json';
+import * as organizers from '@/data/2025/organizers.json';
+import * as slots from '@/data/2025/slots.json';
+import * as speakers from '@/data/2025/speakers.json';
+import * as sponsors from '@/data/2025/sponsors.json';
 import {
-  HomeTranslation,
   About,
   Access,
   Header,
   Hero,
+  HomeTranslation,
   Organizers,
   Program,
   Spaces,
@@ -15,11 +16,10 @@ import {
   Sponsors,
   Tickets
 } from '@/features/conference/presentation';
-import * as accessAndTransport from '@/data/2025/access-and-transport.json';
-import * as organizers from '@/data/2025/organizers.json';
-import * as slots from '@/data/2025/slots.json';
-import * as speakers from '@/data/2025/speakers.json';
-import * as sponsors from '@/data/2025/sponsors.json';
+import { LANGUAGE_SETTINGS } from '@/features/language';
+import { availableTranslations, Translate } from '@/features/translation';
+import type { Metadata } from 'next';
+import { ReactElement } from 'react';
 import '@/styles/pages/home.scss';
 
 export const generateMetadata = async (): Promise<Metadata> =>
@@ -47,7 +47,7 @@ const Home = (): ReactElement => (
         <Program serializedSlots={JSON.stringify(slots)} disabled />
       </section>
       <section id='speakers' className='py-6'>
-        <Speakers serializedSpeakers={JSON.stringify(speakers)} blur />
+        <Speakers serializedSpeakers={JSON.stringify(speakers)} blur reveal={3} />
       </section>
       <section id='tickets' className='bg-light py-6'>
         <Tickets ticketsConfiguration={[{ variant: 'primary-subtle' }]} />

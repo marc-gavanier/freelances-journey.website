@@ -27,7 +27,7 @@
     "subtitle": "Organisé par"
   },
   "about": {
-    "title": "Se lancer en freelance, c'est embarquer dans une aventure épique remplie de grands et petits défis à surmonter",
+    "title": "Être freelance, c'est embarquer dans une aventure épique remplie de grands et petits défis à surmonter",
     "subtitle": "À propos de l'aventure",
     "description": "Mais devine quoi&nbsp;? Ce n'est pas une aventure qui doit obligatoirement être solo, et les meilleurs conseils se cachent souvent parmi nos pairs freelances&nbsp;!\n\nImagine-toi dans un village éphémère dédié aux freelances, où chaque étape de cette aventure palpitante a son propre quartier d’expertise.\nRencontre d'autres freelances, échange des idées, et connecte-toi avec des acteurs experts et influents prêts à partager leurs connaissances pour te propulser vers le succès et la sérénité.\n\n**Freelances Journey**, c'est bien plus qu'un événement, c'est une journée immersive où le freelancing devient une expérience collective. Prépare-toi à explorer, apprendre, et te connecter avec d'autres aventuriers du freelancing dans une ambiance fun et inspirante&nbsp;! \n\nAmis, freelances et freelances en devenir, vous êtes les bienvenus&nbsp;!",
     "learnMore": "En savoir plus",
@@ -75,7 +75,7 @@
       },
       "09:30-12:25": {
         "title": "Première partie",
-        "description": "Plénière d’ouverture, suivi de 3 conférences."
+        "description": "Plénière d’ouverture, suivi de 2 conférences."
       },
       "12:25-13:30": {
         "title": "Déjeuner",
@@ -83,7 +83,7 @@
       },
       "13:30-16:10": {
         "title": "Seconde partie",
-        "description": "2 conférences sont prévues l’après-midi."
+        "description": "3 conférences sont prévues l’après-midi."
       },
       "16:10-18:00": {
         "title": "Networking",
