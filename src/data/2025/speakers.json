@@ -2,17 +2,26 @@
   {
     "name": "Mélissa Osmani",
     "role": "Je fais de votre communication un levier pour booster votre business.",
-    "picture": "images/speakers/Melissa-Osmani.webp"
+    "picture": "images/speakers/Melissa-Osmani.webp",
+    "networks": {
+      "linkedin": "https://www.linkedin.com/in/melissa-strategiedecommunication"
+    }
   },
   {
     "name": "Ruben Taieb",
     "role": "Je t'aide à exploser ton chiffre d'affaires en 6 mois grâce à LinkedIn",
-    "picture": "images/speakers/Ruben-Taieb.webp"
+    "picture": "images/speakers/Ruben-Taieb.webp",
+    "networks": {
+      "linkedin": "https://www.linkedin.com/in/rubentaieb"
+    }
   },
   {
     "name": "Gabin Aureche",
     "role": "Je développe les simulateurs et les calculateurs qui aident vos clients à se projeter.",
-    "picture": "images/speakers/Gabin-Aureche.webp"
+    "picture": "images/speakers/Gabin-Aureche.webp",
+    "networks": {
+      "linkedin": "https://www.linkedin.com/in/gabinaureche"
+    }
   },
   {
     "name": "Conférencier 4",
