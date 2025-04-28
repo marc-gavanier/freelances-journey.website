@@ -9,7 +9,7 @@
   },
   {
     "name": "Ruben Taieb",
-    "role": "Je t'aide à exploser ton chiffre d'affaires en 6 mois grâce à LinkedIn",
+    "role": "Je t'aide à exploser ton chiffre d'affaires en 6 mois grâce à LinkedIn.",
     "picture": "images/speakers/Ruben-Taieb.webp",
     "networks": {
       "linkedin": "https://www.linkedin.com/in/rubentaieb"
@@ -24,9 +24,12 @@
     }
   },
   {
-    "name": "Conférencier 4",
-    "role": "j’ai hâte de te dévoiler des astuces qui m’ont permis de transformer des défis en opportunitiées !",
-    "picture": "images/speakers/anonymous/speaker-4.webp"
+    "name": "Catherine Barba Chiaramonti",
+    "role": "Je forme les indépendants à vendre et transforme les entreprises pour le futur du travail.",
+    "picture": "images/speakers/Catherine-Barba.webp",
+    "networks": {
+      "linkedin": "https://www.linkedin.com/in/envischool"
+    }
   },
   {
     "name": "Conférencier 5",
