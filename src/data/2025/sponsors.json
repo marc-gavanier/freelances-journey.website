@@ -8,5 +8,10 @@
     "logo": "images/home/sponsors/superindep.svg",
     "name": "Superindep.fr",
     "url": "https://www.superindep.fr/"
+  },
+  {
+    "logo": "images/home/sponsors/maif.svg",
+    "name": "MAIF",
+    "url": "https://www.maif.fr/"
   }
 ]

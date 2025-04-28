@@ -10,10 +10,12 @@ import { HomeTranslation } from './home.translation';
 
 export const Speakers = ({
   serializedSpeakers,
-  blur = false
+  blur = false,
+  reveal = 0
 }: {
   serializedSpeakers: string;
   blur?: boolean;
+  reveal?: number;
 }): ReactElement => {
   const speakers: Speaker[] = Array.from(JSON.parse(serializedSpeakers));
   const { speakers: i18n }: HomeTranslation = useTranslation();
@@ -31,7 +33,7 @@ export const Speakers = ({
         </div>
       </div>
       <div className='row py-5 g-xl-5 text-center justify-content-center'>
-        {speakers.map((speaker: Speaker) => (
+        {speakers.map((speaker: Speaker, index: number) => (
           <div key={speaker.name} className='col-md-3 col-6'>
             <div
               className='rounded-circle m-auto overflow-hidden position-relative bg-speaker'
@@ -44,7 +46,7 @@ export const Speakers = ({
                 alt=''
                 width={200}
                 height={200}
-                className={`position-absolute translate-middle-x bottom-0 w-100 h-100 ${blur ? 'img-blur' : ''}`}></Image>
+                className={`position-absolute translate-middle-x bottom-0 w-100 h-100 ${blur && reveal < index + 1 ? 'img-blur' : ''}`}></Image>
             </div>
             {speaker.networks && (
               <div className='btn-group mt-n4'>
