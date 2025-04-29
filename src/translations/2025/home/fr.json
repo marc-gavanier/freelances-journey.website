@@ -66,7 +66,7 @@
   "talks": {
     "title": "Programme de la journée",
     "subtitle": "Retrouve la liste des événements prévus",
-    "description": "Le programme se déroule sur une journée de 09h00 à 18h00, 5 conférences s’enchaîneront tout au long de la journée : 3 le matin et 2 l'après-midi.",
+    "description": "Le programme se déroule sur une journée de 09h00 à 18h00, 5 conférences s’enchaîneront tout au long de la journée : 2 le matin et 3 l'après-midi.",
     "callToAction": "Programme des conférences bientôt disponible",
     "slots": {
       "09:00-09:30": {
