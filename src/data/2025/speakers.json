@@ -32,8 +32,11 @@
     }
   },
   {
-    "name": "Conférencier 5",
-    "role": "Parfois, les plus grandes révélations viennent des expériences les plus inattendues.",
-    "picture": "images/speakers/anonymous/speaker-5.webp"
+    "name": "Alain Meunier",
+    "role": "J'accompagne les transformations en alliant stratégie, mise en œuvre terrain et expérience client.",
+    "picture": "images/speakers/Alain-Meunier.webp",
+    "networks": {
+      "linkedin": "https://www.linkedin.com/in/alain-meunier-maep"
+    }
   }
 ]
