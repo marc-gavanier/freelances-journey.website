@@ -30,7 +30,9 @@ export const Program = ({
             <Markdown>{i18n.description}</Markdown>
           </div>
           <div className='d-sm-block d-grid'>
-            <Link className={`btn btn-outline-primary btn-lg ${disabled ? 'disabled' : null}`} href={`.${pathname}/talks`}>
+            <Link
+              className={`btn btn-outline-primary btn-lg ${disabled ? 'disabled' : null}`}
+              href={pathname === '/' ? 'talks' : `.${pathname}/talks`}>
               {i18n.callToAction}
             </Link>
           </div>
