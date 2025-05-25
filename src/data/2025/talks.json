@@ -1,12 +1,57 @@
 [
   {
-    "title": "no talks",
-    "speakers": [],
-    "description": "",
-    "duration": 0,
-    "room": "",
-    "track": "",
-    "language": "",
-    "date": ""
+    "title": "Savoir Se Vendre",
+    "speakers": ["Catherine Barba Chiaramonti"],
+    "description": "En tant qu'indépendant, il ne suffit pas de bien travailler pour réussir. Il est essentiel de cultiver la fierté d'être indépendant et de développer une posture entrepreneuriale proactive.\n\nDans cette conférence, je partagerai les enseignements que nous transmettons chez Envi, l'école que j'ai cofondée pour aider les indépendants à développer leur activité. Nous aborderons des méthodes concrètes pour parler de soi avec justesse, oser se rendre visible et vendre son offre avec confiance.\n\nJe vous présenterai des stratégies éprouvées pour dépasser la peur de déranger ou de ne pas être légitime, afin de mieux incarner votre valeur, affirmer votre singularité et développer votre activité sur des bases solides.",
+    "date": "2025-06-20T10:00:00.000+02:00",
+    "duration": 30,
+    "room": "La grande halle",
+    "track": "Freelances Journey",
+    "language": "Français",
+    "tags": ["SavoirSeVendre", "PersonalBranding", "ConfianceEnSoi"]
+  },
+  {
+    "title": "Comment Ruben fait 1M€ de marge par an grâce à LinkedIn",
+    "speakers": ["Ruben Taieb"],
+    "description": "Quand j’ai compris le vrai potentiel de LinkedIn, tout a changé. En quelques années, j’ai structuré une activité rentable qui me permet aujourd’hui de générer plus d’un million d’euros de marge par an, sans levée de fonds, sans pub, sans tunnel compliqué.\n\nDans cette conférence, je vous raconte comment j’ai fait. Pas de recettes magiques, mais une méthode claire, des leviers concrets et une approche pragmatique du business sur LinkedIn.\n\nJe partagerai les coulisses de mon parcours : comment j’ai transformé un simple profil en machine à opportunités et comment j’ai bâti une audience engagée.\n\nQue vous soyez freelance, entrepreneur ou en train de lancer votre activité, cette conférence vous montrera ce qu’il est réellement possible de faire avec LinkedIn, et comment vous pouvez, vous aussi, passer à l’action.",
+    "date": "2025-06-20T11:15:00.000+02:00",
+    "duration": 30,
+    "room": "La grande halle",
+    "track": "Freelances Journey",
+    "language": "Français",
+    "tags": ["LinkedInStrategy", "BusinessGrowth", "SalesProcess"]
+  },
+  {
+    "title": "Comment stabiliser, maîtriser puis développer ses finances en freelance",
+    "speakers": ["Gabin Aureche"],
+    "description": "Freelance rime souvent avec revenus irréguliers et inquiétudes financières. Je vous montre comment stabiliser votre budget, anticiper les charges, et mieux maîtriser vos finances au quotidien.\n\nVous apprendrez aussi à investir intelligemment dans votre activité et vos projets pour construire une liberté financière durable, pas à pas.\n\nCette conférence pratique est idéale pour tous les indépendants qui veulent gérer sereinement leur argent et développer leur activité en confiance.",
+    "date": "2025-06-20T13:00:00.000+02:00",
+    "duration": 30,
+    "room": "La grande halle",
+    "track": "Freelances Journey",
+    "language": "Français",
+    "tags": ["GestionFinancière", "Investissement"]
+  },
+  {
+    "title": "Une Stratégie de Contenu Efficace",
+    "speakers": ["Mélissa Osmani"],
+    "description": "Créer du contenu authentique et impactant peut sembler compliqué et chronophage. Pourtant, il existe des méthodes simples et puissantes pour communiquer efficacement, en restant fidèle à soi-même.\n\nMélissa Osmani vous partagera ses clés pour bâtir une stratégie de contenus qui vous ressemble, vous aide à gagner en visibilité et vous libère du stress de la gestion quotidienne.\n\nRejoignez cette conférence pour transformer votre approche de la communication et faire de votre contenu un véritable levier de succès.",
+    "date": "2025-06-20T14:15:00.000+02:00",
+    "duration": 30,
+    "room": "La grande halle",
+    "track": "Freelances Journey",
+    "language": "Français",
+    "tags": ["ContentStrategy", "ContentMarketing"]
+  },
+  {
+    "title": "Changer d'état d'esprit pour mieux réussir !",
+    "speakers": ["Alain Meunier"],
+    "description": "Dans un monde en constante évolution, notre succès dépend avant tout de notre capacité à adapter notre façon de penser. Alain Meunier, expert en transformation et conduite du changement, vous invite à découvrir comment un changement d’état d’esprit peut vous permettre de surmonter les obstacles, transformer vos défis en opportunités, et construire un avenir aligné avec vos aspirations.\n\nCette conférence est une invitation à repenser vos croyances limitantes, à adopter une posture proactive et à nourrir une vision claire pour réussir durablement, quel que soit votre parcours.",
+    "date": "2025-06-20T15:30:00.000+02:00",
+    "duration": 40,
+    "room": "La grande halle",
+    "track": "Freelances Journey",
+    "language": "Français",
+    "tags": ["ConduiteDuChangement", "Résilience", "CroissanceDurable"]
   }
 ]
