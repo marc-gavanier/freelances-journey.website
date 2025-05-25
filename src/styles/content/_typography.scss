@@ -18,6 +18,13 @@ h6 {
 }
 
 .display-4 {
+  small {
+    font-size: 2rem !important;
+    font-family: system-ui !important;
+    text-shadow: 2px 2px 0 $primary;
+    color: $white;
+  }
+
   font-family: arcadegamer, system-ui !important;
   text-shadow: 3px 3px 0 #ffe014;
 }
