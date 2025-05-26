@@ -29,7 +29,7 @@
   "about": {
     "title": "Être freelance, c'est embarquer dans une aventure épique, remplie de grands et petits défis à surmonter.",
     "subtitle": "À propos de l'aventure",
-    "description": "Mais devine quoi&nbsp;? Ce n’est pas une aventure à vivre en solo. Les meilleurs conseils se trouvent souvent auprès de celles et ceux qui traversent les mêmes étapes&nbsp;: nos pairs freelances&nbsp;!\n\nImagine-toi dans un village éphémère dédié aux freelances, où chaque quartier est pensé pour t’apporter quelque chose de concret&nbsp;: une **photo pro**, un **mini audit SEO**, une **vidéo de pitch** ou des **conseils express sur ton profil LinkedIn**… Ici, on ne fait pas que discuter&nbsp;: on repart avec du concrêt.\n\nEt pour celles et ceux qui veulent élargir leur réseau, le **speed networking** est là pour créer des connexions en un temps record. Des échanges efficaces, bienveillants et rythmés, pour rencontrer un max de freelances en un minimum de temps.\n\n**Freelances Journey**, c'est bien plus qu'un événement, c'est une journée immersive où le freelancing devient une expérience collective. Prépare-toi à explorer, apprendre, et te connecter avec d'autres aventuriers du freelancing dans une ambiance fun et inspirante&nbsp;! \n\nAmis, freelances et freelances en devenir, vous êtes les bienvenus&nbsp;!",
+    "description": "Mais devine quoi&nbsp;? Ce n’est pas une aventure à vivre en solo. Les meilleurs conseils se trouvent souvent auprès de celles et ceux qui traversent les mêmes étapes&nbsp;: nos pairs freelances&nbsp;!\n\nImagine-toi dans un village éphémère dédié aux freelances, où chaque quartier est pensé pour t’apporter quelque chose de concret&nbsp;: une **photo pro**, un **mini audit SEO**, une **vidéo de pitch** ou des **conseils express sur ton profil LinkedIn**… Ici, on ne fait pas que discuter&nbsp;: on repart avec du concret.\n\nEt pour celles et ceux qui veulent élargir leur réseau, le **speed networking** est là pour créer des connexions en un temps record. Des échanges efficaces, bienveillants et rythmés, pour rencontrer un max de freelances en un minimum de temps.\n\n**Freelances Journey**, c'est bien plus qu'un événement, c'est une journée immersive où le freelancing devient une expérience collective. Prépare-toi à explorer, apprendre, et te connecter avec d'autres aventuriers du freelancing dans une ambiance fun et inspirante&nbsp;! \n\nAmis freelances et futurs freelances, vous êtes les bienvenus&nbsp;!",
     "learnMore": "En savoir plus",
     "spaces": {
       "title": "Un speed networking pour se connecter et un village pour apprendre",
@@ -37,22 +37,22 @@
       "items": [
         {
           "name": "Speed networking",
-          "description": "Rencontre d’autres freelances en tête-à-tête express. En 6 minutes, fais connaissance, échange tes contacts, et repars peut-être avec un futur partenaire ou client.",
+          "description": "Rencontre d’autres freelances en tête-à-tête express. En 6 minutes, fais connaissance, échange tes contacts, et repars peut-être avec un futurs prescripteurs, clients ou partenaires.",
           "image": "home/about/speed-networking.svg"
         },
         {
           "name": "Stand photo",
-          "description": "Profite d’une séance photo pro, rapide et efficace. En moins de 6 minutes, repars avec un portrait de qualité pour ton profil ou ton site web.",
+          "description": "Profite d’une séance photo pro, rapide et efficace. En moins de 6 minutes, repars avec un portrait de qualité pour tes réseaux sociaux ou ton site internet.",
           "image": "home/about/stand-photo.svg"
         },
         {
           "name": "Stand pitch vidéo",
-          "description": "Présente ton activité en 30 secondes chrono devant la caméra. Tu repars avec une courte vidéo prête à être partagée sur tes réseaux.",
+          "description": "Présente ton activité en 30 secondes chrono devant la caméra. Tu repars avec une courte vidéo prête à être partagée sur tes réseaux sociaux ou ton site internet.",
           "image": "home/about/stand-video.svg"
         },
         {
           "name": "Stand Linkedin",
-          "description": "Optimise ton profil LinkedIn avec un regard extérieur. En 5 minutes, des conseils concrets pour gagner en impact et en visibilité.",
+          "description": "Optimise ton profil LinkedIn avec un regard extérieur. En 10 minutes, des conseils concrets pour gagner en impact et en visibilité.",
           "image": "home/about/stand-linkedin.svg"
         },
         {
@@ -94,7 +94,7 @@
   "speakers": {
     "title": "La crème de la crème des experts sur le freelancing",
     "subtitle": "Les conférenciers",
-    "description": "Des ateliers et des talk de qualité, animés par les créateurs de contenu plébiscités par les freelances auront lieu tout au long de la journée.",
+    "description": "Des ateliers et des conférences de qualité, animés par les créateurs de contenu plébiscités par les freelances auront lieu tout au long de la journée.",
     "callToAction": "Voir tous les orateurs"
   },
   "tickets": {
