@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Conférencière 1 à découvrir",
+    "role": "Expert en développement commercial pour les indépendants.",
+    "picture": "images/speakers/anonymous/speaker-1.webp"
+  },
+  {
+    "name": "Conférencier 2 à découvrir",
+    "role": "Spécialiste de la visibilité et du personal branding.",
+    "picture": "images/speakers/anonymous/speaker-2.webp"
+  },
+  {
+    "name": "Conférencier 3 à découvrir",
+    "role": "Passionné par l'entrepreneuriat et le freelancing.",
+    "picture": "images/speakers/anonymous/speaker-3.webp"
+  },
+  {
+    "name": "Conférencière 4 à découvrir",
+    "role": "Accompagne les freelances dans leur croissance.",
+    "picture": "images/speakers/anonymous/speaker-4.webp"
+  },
+  {
+    "name": "Conférencière 5 à découvrir",
+    "role": "Partage son expérience du quotidien freelance.",
+    "picture": "images/speakers/anonymous/speaker-5.webp"
+  }
+]

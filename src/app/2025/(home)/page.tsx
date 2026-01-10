@@ -1,13 +1,14 @@
-import { ReactElement } from 'react';
-import type { Metadata } from 'next';
-import { LANGUAGE_SETTINGS } from '@/features/language';
-import { availableTranslations, Translate } from '@/features/translation';
+import * as accessAndTransport from '@/data/2025/access-and-transport.json';
+import * as organizers from '@/data/2025/organizers.json';
+import * as slots from '@/data/2025/slots.json';
+import * as speakers from '@/data/2025/speakers.json';
+import * as sponsors from '@/data/2025/sponsors.json';
 import {
-  HomeTranslation,
   About,
   Access,
   Header,
   Hero,
+  HomeTranslation,
   Organizers,
   Program,
   Spaces,
@@ -15,21 +16,20 @@ import {
   Sponsors,
   Tickets
 } from '@/features/conference/presentation';
-import * as accessAndTransport from '@/data/2024/access-and-transport.json';
-import * as organizers from '@/data/2024/organizers.json';
-import * as slots from '@/data/2024/slots.json';
-import * as speakers from '@/data/2024/speakers.json';
-import * as sponsors from '@/data/2024/sponsors.json';
+import { LANGUAGE_SETTINGS } from '@/features/language';
+import { availableTranslations, Translate } from '@/features/translation';
+import type { Metadata } from 'next';
+import { ReactElement } from 'react';
 import '@/styles/pages/home.scss';
 
 export const generateMetadata = async (): Promise<Metadata> =>
-  (await availableTranslations<HomeTranslation>('2024/home')[LANGUAGE_SETTINGS.defaultLanguage]!()).metadata;
+  (await availableTranslations<HomeTranslation>('2025/home')[LANGUAGE_SETTINGS.defaultLanguage]!()).metadata;
 
 const Home = (): ReactElement => (
   <>
     <div className='min-vh-100 d-flex flex-column overflow-hidden position-relative'>
       <div className='h-100 w-100 position-absolute bg-welcome' />
-      <Header editions={[{ year: 2026, isCurrent: true }, { year: 2025 }]} />
+      <Header editions={[{ year: 2026, isCurrent: true }, { year: 2024 }]} />
       <section id='hero' className='container flex-grow-1 d-flex align-items-center pb-5 text-center' style={{ zIndex: 1 }}>
         <Hero />
       </section>
@@ -62,4 +62,4 @@ const Home = (): ReactElement => (
   </>
 );
 
-export default Translate(Home, '2024/home');
+export default Translate(Home, '2025/home');

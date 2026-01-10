@@ -1,0 +1,219 @@
+{
+  "destinations": [
+    {
+      "name": "Freelances Journey",
+      "address": "L'Embarcadère - 13 bis Quai Rambaud, 69002 Lyon",
+      "latitude": 45.74741676202773,
+      "longitude": 4.8180020914340425,
+      "icon": {
+        "width": 57,
+        "height": 57,
+        "src": "/images/home/access/map/pin.svg"
+      }
+    }
+  ],
+  "trainStations": [
+    {
+      "name": "Gare de Perrache",
+      "address": "Gare de Perrache, 69002 Lyon",
+      "latitude": 45.74857531039979,
+      "longitude": 4.825775920852171,
+      "accessTime": "10 min",
+      "icon": {
+        "width": 40,
+        "height": 40,
+        "src": "/images/home/access/map/train-station.svg"
+      }
+    }
+  ],
+  "subwayStations": [
+    {
+      "name": "Métro A - Station Perrache",
+      "address": "Gare de Perrache, 69002 Lyon",
+      "latitude": 45.749961973982124,
+      "longitude": 4.826430591139607,
+      "accessTime": "12 min",
+      "icon": {
+        "width": 40,
+        "height": 40,
+        "src": "/images/home/access/map/subway-a.svg"
+      }
+    }
+  ],
+  "busStops": [
+    {
+      "name": "Bus 63 et S1 - Station Claudius Collonge",
+      "address": "10 Cours Suchet, 69002 Lyon",
+      "latitude": 45.747993541791395,
+      "longitude": 4.821470070963328,
+      "accessTime": "5 min",
+      "icon": {
+        "width": 50,
+        "height": 60,
+        "src": "/images/home/access/map/bus-63.svg"
+      }
+    }
+  ],
+  "tramStops": [
+    {
+      "name": "Trams T1 et T2 - Station Place des Archives",
+      "address": "7 Cours Charlemagne, 69002 Lyon",
+      "latitude": 45.747126985053136,
+      "longitude": 4.824584400946023,
+      "accessTime": "9 min",
+      "icon": {
+        "width": 40,
+        "height": 40,
+        "src": "/images/home/access/map/tram-1-2.svg"
+      }
+    },
+    {
+      "name": "Trams T1 et T2 - Station Sainte-Blandine",
+      "address": "57 Cours Charlemagne, 69002 Lyon",
+      "latitude": 45.744303674916495,
+      "longitude": 4.82216410510666,
+      "accessTime": "10 min",
+      "icon": {
+        "width": 40,
+        "height": 40,
+        "src": "/images/home/access/map/tram-1-2.svg"
+      }
+    },
+    {
+      "name": "Trams T1 et T2 - Station Perrache",
+      "address": "Gare de Perrache, 69002 Lyon",
+      "latitude": 45.74957170912005,
+      "longitude": 4.827104819007682,
+      "accessTime": "12 min",
+      "icon": {
+        "width": 40,
+        "height": 40,
+        "src": "/images/home/access/map/tram-1-2.svg"
+      }
+    }
+  ],
+  "parkingLots": [
+    {
+      "name": "Q-Park Lyon Gare Perrache",
+      "address": "Cours de Verdun, 69002 Lyon",
+      "accessTime": "10 min",
+      "latitude": 45.74905006209024,
+      "longitude": 4.82734013963646,
+      "icon": {
+        "width": 23,
+        "height": 23,
+        "src": "/images/home/access/map/parking.svg"
+      }
+    },
+    {
+      "name": "Parking Lyon Confluence",
+      "address": "7 Rue Paul Montrochet, 69002 Lyon",
+      "accessTime": "13 min",
+      "latitude": 45.741361464821445,
+      "longitude": 4.815962227669531,
+      "icon": {
+        "width": 23,
+        "height": 23,
+        "src": "/images/home/access/map/parking.svg"
+      }
+    }
+  ],
+  "bikeStations": [
+    {
+      "name": "Station Vélo'v 2021 Rambaud / École du cinéma",
+      "address": "68 Quai Rambaud, 69002 Lyon",
+      "accessTime": "4 min",
+      "latitude": 45.746127168180585,
+      "longitude": 4.817226953172816,
+      "icon": {
+        "width": 19,
+        "height": 19,
+        "src": "/images/home/access/map/velov.svg"
+      }
+    },
+    {
+      "name": "Station Vélo'v 2006 Place de l'hippodrome",
+      "address": "1 Rue Marc-Antoine Petit, 69002 Lyon",
+      "accessTime": "8 min",
+      "latitude": 45.74570152785516,
+      "longitude": 4.823667165053848,
+      "icon": {
+        "width": 19,
+        "height": 19,
+        "src": "/images/home/access/map/velov.svg"
+      }
+    },
+    {
+      "name": "Station Vélo'v 2028 Sainte-Blandine",
+      "address": "60 Cours Charlemagne, 69002 Lyon",
+      "accessTime": "9 min",
+      "latitude": 45.744724685495946,
+      "longitude": 4.822246838875794,
+      "icon": {
+        "width": 19,
+        "height": 19,
+        "src": "/images/home/access/map/velov.svg"
+      }
+    },
+    {
+      "name": "Station Vélo'v 2037 Place des archives",
+      "address": "27 Rue Dugas-Montbel, 69002 Lyon",
+      "accessTime": "9 min",
+      "latitude": 45.7481219781472,
+      "longitude": 4.824918833056582,
+      "icon": {
+        "width": 19,
+        "height": 19,
+        "src": "/images/home/access/map/velov.svg"
+      }
+    },
+    {
+      "name": "Station Vélo'v 2010 Confluence / DARSE",
+      "address": "26 Allée André Mure, 69002 Lyon",
+      "accessTime": "10 min",
+      "latitude": 45.74342555300056,
+      "longitude": 4.815748694453548,
+      "icon": {
+        "width": 19,
+        "height": 19,
+        "src": "/images/home/access/map/velov.svg"
+      }
+    },
+    {
+      "name": "Station Vélo'v 2027 Perrache est",
+      "address": "48 Cours Suchet, 69002 Lyon",
+      "accessTime": "10 min",
+      "latitude": 45.74630719912494,
+      "longitude": 4.825512179543535,
+      "icon": {
+        "width": 19,
+        "height": 19,
+        "src": "/images/home/access/map/velov.svg"
+      }
+    },
+    {
+      "name": "Station Vélo'v 2023 Perrache / Petit",
+      "address": "19 Quai Perrache, 69002 Lyon",
+      "accessTime": "11 min",
+      "latitude": 45.74476111033545,
+      "longitude": 4.826736007036773,
+      "icon": {
+        "width": 19,
+        "height": 19,
+        "src": "/images/home/access/map/velov.svg"
+      }
+    },
+    {
+      "name": "Station Vélo'v 2007 Patinoire Charlemagne",
+      "address": "96 Cours Charlemagne, 69002 Lyon",
+      "accessTime": "12 min",
+      "latitude": 45.74274419897669,
+      "longitude": 4.820512297544964,
+      "icon": {
+        "width": 19,
+        "height": 19,
+        "src": "/images/home/access/map/velov.svg"
+      }
+    }
+  ]
+}
