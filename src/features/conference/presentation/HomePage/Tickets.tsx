@@ -8,6 +8,7 @@ import Markdown from 'react-markdown';
 import { HomeTranslation } from './home.translation';
 
 type TicketsProps = {
+  disabled?: boolean;
   ticketsConfiguration: { variant: 'primary-subtle' | 'warning' | 'info-subtle'; highlight?: boolean }[];
 };
 

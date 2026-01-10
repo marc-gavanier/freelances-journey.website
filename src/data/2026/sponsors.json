@@ -1,0 +1,27 @@
+[
+  {
+    "logo": "images/home/sponsors/o2switch.svg",
+    "name": "O2switch",
+    "url": "https://www.o2switch.fr/"
+  },
+  {
+    "logo": "images/home/sponsors/hackyourjob.svg",
+    "name": "Hack your job",
+    "url": "https://www.hackyourjob.org/"
+  },
+  {
+    "logo": "images/home/sponsors/numbr.svg",
+    "name": "Numbr",
+    "url": "https://numbr.co/"
+  },
+  {
+    "logo": "images/home/sponsors/ours.svg",
+    "name": "Our (s)",
+    "url": "https://ourscom.fr/"
+  },
+  {
+    "logo": "images/home/sponsors/cap-services.svg",
+    "name": "Cap Services",
+    "url": "https://www.cap-services.coop/"
+  }
+]

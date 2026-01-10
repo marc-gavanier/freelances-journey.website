@@ -5,7 +5,7 @@ import { ReactElement } from 'react';
 import Markdown from 'react-markdown';
 import { HomeTranslation } from './home.translation';
 
-export const Hero = (): ReactElement => {
+export const Hero = ({ disabled = false }: { disabled?: boolean }): ReactElement => {
   const { hero: i18n }: HomeTranslation = useTranslation();
 
   return (
@@ -17,7 +17,10 @@ export const Hero = (): ReactElement => {
         <Markdown>{i18n.description}</Markdown>
       </div>
       <div className='d-sm-block d-grid'>
-        <a className='btn btn-primary btn-lg' href='#tickets'>
+        <a
+          className={`btn btn-primary btn-lg ${disabled ? 'disabled' : null}`}
+          tabIndex={disabled ? -1 : undefined}
+          href='#tickets'>
           {i18n.callToAction}
         </a>
       </div>

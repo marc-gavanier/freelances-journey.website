@@ -31,8 +31,9 @@ export const Program = ({
           </div>
           <div className='d-sm-block d-grid'>
             <Link
-              className={`btn btn-outline-primary btn-lg ${disabled ? 'disabled' : null}`}
-              href={pathname === '/' ? 'talks' : `.${pathname}/talks`}>
+              className={`btn btn-primary btn-lg ${disabled ? 'disabled' : null}`}
+              href={pathname === '/' ? 'talks' : `.${pathname}/talks`}
+              tabIndex={disabled ? -1 : undefined}>
               {i18n.callToAction}
             </Link>
           </div>

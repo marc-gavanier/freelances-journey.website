@@ -1,8 +1,8 @@
-import * as accessAndTransport from '@/data/2025/access-and-transport.json';
-import * as organizers from '@/data/2025/organizers.json';
-import * as slots from '@/data/2025/slots.json';
-import * as speakers from '@/data/2025/speakers.json';
-import * as sponsors from '@/data/2025/sponsors.json';
+import * as accessAndTransport from '@/data/2026/access-and-transport.json';
+import * as organizers from '@/data/2026/organizers.json';
+import * as slots from '@/data/2026/slots.json';
+import * as speakers from '@/data/2026/speakers.json';
+import * as sponsors from '@/data/2026/sponsors.json';
 import {
   About,
   Access,
@@ -23,15 +23,15 @@ import { ReactElement } from 'react';
 import '@/styles/pages/home.scss';
 
 export const generateMetadata = async (): Promise<Metadata> =>
-  (await availableTranslations<HomeTranslation>('2025/home')[LANGUAGE_SETTINGS.defaultLanguage]!()).metadata;
+  (await availableTranslations<HomeTranslation>('2026/home')[LANGUAGE_SETTINGS.defaultLanguage]!()).metadata;
 
 const Home = (): ReactElement => (
   <>
     <div className='min-vh-100 d-flex flex-column overflow-hidden position-relative'>
       <div className='h-100 w-100 position-absolute bg-welcome' />
-      <Header editions={[{ year: 2024 }]} />
+      <Header editions={[{ year: 2025 }, { year: 2024 }]} />
       <section id='hero' className='container flex-grow-1 d-flex align-items-center pb-5 text-center' style={{ zIndex: 1 }}>
-        <Hero />
+        <Hero disabled />
       </section>
     </div>
     <main className='overflow-hidden'>
@@ -44,13 +44,13 @@ const Home = (): ReactElement => (
         </About>
       </section>
       <section id='program' className='bg-light-subtle py-6'>
-        <Program serializedSlots={JSON.stringify(slots)} />
+        <Program disabled serializedSlots={JSON.stringify(slots)} />
       </section>
       <section id='speakers' className='py-6'>
-        <Speakers serializedSpeakers={JSON.stringify(speakers)} />
+        <Speakers blur serializedSpeakers={JSON.stringify(speakers)} />
       </section>
       <section id='tickets' className='bg-light py-6'>
-        <Tickets ticketsConfiguration={[{ variant: 'primary-subtle' }]} />
+        <Tickets disabled ticketsConfiguration={[{ variant: 'primary-subtle' }]} />
       </section>
       <section id='location' className='mt-6'>
         <Access serializedAccessAndTransport={JSON.stringify(accessAndTransport)} />
@@ -62,4 +62,4 @@ const Home = (): ReactElement => (
   </>
 );
 
-export default Translate(Home, '2025/home');
+export default Translate(Home, '2026/home');

@@ -42,7 +42,7 @@ export const Header = ({
   const { header: i18n }: HomeTranslation = useTranslation();
 
   return (
-    <Navbar expand='lg' data-bs-theme='dark'>
+    <Navbar expand='lg' data-bs-theme='dark' className='z-2'>
       <Container>
         <Navbar.Brand href={brandHref}>{i18n.brand}</Navbar.Brand>
         <Navbar.Toggle aria-controls='main-nav' />
