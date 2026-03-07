@@ -23,5 +23,10 @@
     "logo": "images/home/sponsors/cap-services.svg",
     "name": "Cap Services",
     "url": "https://www.cap-services.coop/"
+  },
+  {
+    "logo": "images/home/sponsors/coworking-grand-lyon.svg",
+    "name": "Coworking Grand Lyon",
+    "url": "https://www.coworking-grandlyon.org/"
   }
 ]

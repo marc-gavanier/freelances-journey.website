@@ -6,9 +6,10 @@
     "displayName": true
   },
   {
-    "logo": "images/home/organizers/hackyourjob.svg",
-    "name": "HackYourJob",
-    "url": "https://www.hackyourjob.org/"
+    "logo": "images/home/organizers/marc-gavanier.webp",
+    "name": "Marc Gavanier",
+    "url": "https://marc.gavanier.com/",
+    "displayName": true
   },
   {
     "logo": "images/home/organizers/superindep.svg",
