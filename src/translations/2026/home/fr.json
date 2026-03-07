@@ -10,7 +10,7 @@
     "title": "Freelances Journey",
     "nextEditionDate": "Lyon - 19 juin 2026",
     "description": "La journée lyonnaise qui met à l’honneur l’aventure du freelancing.",
-    "callToAction": "Réserve ton billet gratuitement (bientôt disponible)"
+    "callToAction": "Réserve ton billet gratuitement"
   },
   "header": {
     "brand": "Freelances Journey 2026",
@@ -101,13 +101,13 @@
     "title": "Réserve ton billet gratuitement",
     "subtitle": "Participe à l'aventure",
     "description": "N'hésites pas à partager l'évènement à ton réseau avec le hashtag **#FreelancesJourney**.",
-    "callToAction": "Bientôt disponible",
+    "callToAction": "Je prends mon billet",
     "ticketTypes": [
       {
         "name": "Accès à la journée",
-        "description": "Ouverture de la billetterie prévue en mars",
+        "description": "Rendez-vous sur **app.iconmeetings.io/events/freelances-journey-19-juin-2026/details** pour réserver ton billet.",
         "price": "Gratuit",
-        "link": null
+        "link": "https://app.iconmeetings.io/events/freelances-journey-19-juin-2026/details"
       }
     ]
   },
@@ -115,5 +115,10 @@
     "title": "Un grand merci à nos sponsors",
     "subtitle": "Sponsors de Freelances Journey",
     "description": "Sans le soutien de nos sponsors, **Freelances Journey** n'aurait pas pu voir le jour, nous tenons ici à les remercier tout particulièrement pour leur soutien."
+  },
+  "footer": {
+    "legalNotice": "Mentions légales",
+    "termsOfUse": "Conditions d'utilisation",
+    "privacyPolicy": "Politique de confidentialité"
   }
 }

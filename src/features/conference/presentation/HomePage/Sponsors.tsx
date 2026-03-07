@@ -22,15 +22,24 @@ export const Sponsors = ({ serializedSponsors }: { serializedSponsors: string })
           <Markdown>{i18n.description}</Markdown>
         </div>
       </div>
-      <div className='row gap-5 justify-content-center'>
+      <div className='row gap-5 justify-content-center align-items-center'>
         {sponsors.map((sponsor: Sponsor) => (
           <div key={sponsor.name} className='col-auto text-center'>
             <Link href={sponsor.url} target='_blank' rel='noreferrer'>
               <Image
                 src={sponsor.logo}
                 alt={`Visit ${sponsor.name} website (opens in new tab)`}
-                width={180}
-                height={180}
+                width={0}
+                height={0}
+                sizes='100vw'
+                style={{
+                  width: 'auto',
+                  height: 'auto',
+                  minWidth: '120px',
+                  maxWidth: '250px',
+                  minHeight: '100px',
+                  maxHeight: '180px'
+                }}
                 title={sponsor.name}
               />
               {sponsor.displayName && <div className='h5 p-3 bg-dark'>{sponsor.name}</div>}
