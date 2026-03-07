@@ -6,6 +6,7 @@ import * as sponsors from '@/data/2026/sponsors.json';
 import {
   About,
   Access,
+  Footer,
   Header,
   Hero,
   HomeTranslation,
@@ -31,7 +32,7 @@ const Home = (): ReactElement => (
       <div className='h-100 w-100 position-absolute bg-welcome' />
       <Header editions={[{ year: 2025 }, { year: 2024 }]} />
       <section id='hero' className='container flex-grow-1 d-flex align-items-center pb-5 text-center' style={{ zIndex: 1 }}>
-        <Hero disabled />
+        <Hero />
       </section>
     </div>
     <main className='overflow-hidden'>
@@ -59,6 +60,7 @@ const Home = (): ReactElement => (
         <Sponsors serializedSponsors={JSON.stringify(sponsors)} />
       </section>
     </main>
+    <Footer />
   </>
 );
 

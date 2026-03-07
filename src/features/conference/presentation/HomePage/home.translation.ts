@@ -64,4 +64,9 @@ export type HomeTranslation = {
     subtitle: string;
     description: string;
   };
+  footer: {
+    legalNotice: string;
+    termsOfUse: string;
+    privacyPolicy: string;
+  };
 };
