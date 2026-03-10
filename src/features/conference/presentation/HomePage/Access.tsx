@@ -61,7 +61,7 @@ export const Access = ({ serializedAccessAndTransport }: { serializedAccessAndTr
       <div className='container py-6'>
         <div className='row g-6'></div>
         <h2 className='mb-6'>
-          <small>13 bis Quai Rambaud, 69002 Lyon</small> Freelances Journey vous accueil à L&apos;Embarcadère
+          <small>13 bis Quai Rambaud, 69002 Lyon</small> Freelances Journey vous accueille à L&apos;Embarcadère
         </h2>
         <div className='row g-3'>
           {transports.trainStations?.map((location: Location) => <LocationItem key={location.name} {...location} />)}
