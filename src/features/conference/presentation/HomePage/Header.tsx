@@ -54,6 +54,7 @@ export const Header = ({
             <Nav.Link href='#tickets'>{i18n.tickets}</Nav.Link>
             <Nav.Link href='#location'>{i18n.location}</Nav.Link>
             <Nav.Link href='#sponsors'>{i18n.sponsors}</Nav.Link>
+            <Nav.Link href='/contact'>{i18n.contact}</Nav.Link>
             {LANGUAGE_SETTINGS.availableLanguages.length > 1 && (
               <NavDropdown className='bg-opacity-10' title={`${selectedLanguage.toUpperCase()}`} id='translation-dropdown'>
                 {LANGUAGE_SETTINGS.availableLanguages.map((lang: string) => (

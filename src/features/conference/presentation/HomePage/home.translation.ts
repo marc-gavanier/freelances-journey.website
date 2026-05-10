@@ -17,6 +17,7 @@ export type HomeTranslation = {
     tickets: string;
     location: string;
     sponsors: string;
+    contact: string;
     previous: string;
   };
   about: {
