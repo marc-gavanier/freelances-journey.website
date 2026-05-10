@@ -7,7 +7,7 @@
   {
     "logo": "images/home/sponsors/hackyourjob.svg",
     "name": "Hack your job",
-    "url": "https://www.hackyourjob.org/"
+    "url": "https://formation.hackyourjob.com/"
   },
   {
     "logo": "images/home/sponsors/numbr.svg",
@@ -18,6 +18,21 @@
     "logo": "images/home/sponsors/icon.svg",
     "name": "Icon",
     "url": "https://www.iconmeetings.io/"
+  },
+  {
+    "logo": "images/home/sponsors/littlebig-connection.svg",
+    "name": "LittleBig Connection",
+    "url": "https://www.littlebigconnection.com/"
+  },
+  {
+    "logo": "images/home/sponsors/adegest.svg",
+    "name": "Adegest",
+    "url": "https://www.linkedin.com/in/david-ferraris-ardegest/"
+  },
+  {
+    "logo": "images/home/sponsors/attestat.io.svg",
+    "name": "Attestat.io",
+    "url": "https://attestat.io/"
   },
   {
     "logo": "images/home/sponsors/ours.svg",
