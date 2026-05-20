@@ -1,27 +1,42 @@
 [
   {
-    "name": "Conférencière 1",
-    "role": "À découvrir.",
-    "picture": "images/speakers/anonymous/speaker-1.webp"
+    "name": "Romain Cécillon",
+    "role": "Je forme aux usages pros de LinkedIn, de l'IA et de Canva, fondateur de HTW-Marketing.",
+    "picture": "images/speakers/Romain-Cecillon.webp",
+    "networks": {
+      "linkedin": "https://www.linkedin.com/in/romain-cecillon/"
+    }
   },
   {
-    "name": "Conférencier 2",
-    "role": "À découvrir.",
-    "picture": "images/speakers/anonymous/speaker-2.webp"
+    "name": "Clémentine Hédont",
+    "role": "Je coache les femmes CEO et assistantes virtuelles pour accélérer leur chiffre d'affaires.",
+    "picture": "images/speakers/Clementine-Hedont.webp",
+    "networks": {
+      "linkedin": "https://www.linkedin.com/in/cl%C3%A9mentine-h%C3%A9dont/"
+    }
   },
   {
-    "name": "Conférencier 3",
-    "role": "À découvrir.",
-    "picture": "images/speakers/anonymous/speaker-3.webp"
+    "name": "Carla Misiti",
+    "role": "Je crée du contenu et accompagne plus de 200 marques en talent placement et influence.",
+    "picture": "images/speakers/Carla-Misiti.webp",
+    "networks": {
+      "linkedin": "https://www.linkedin.com/in/carla-misiti/"
+    }
   },
   {
-    "name": "Conférencière 4",
-    "role": "À découvrir.",
-    "picture": "images/speakers/anonymous/speaker-4.webp"
+    "name": "Alice Cathelineau",
+    "role": "J'accompagne les freelances en tant que mentor et conférencière.",
+    "picture": "images/speakers/Alice-Cathelineau.webp",
+    "networks": {
+      "linkedin": "https://www.linkedin.com/in/alicecatdesigner/"
+    }
   },
   {
-    "name": "Conférencière 5",
-    "role": "À découvrir.",
-    "picture": "images/speakers/anonymous/speaker-5.webp"
+    "name": "Emilien Pecoul",
+    "role": "Je simplifie l'administratif des auto-entrepreneurs avec Superindep.fr, auteur de Code Freelance.",
+    "picture": "images/speakers/Emilien-Pecoul.webp",
+    "networks": {
+      "linkedin": "https://www.linkedin.com/in/emilien-pecoul-6a009153/"
+    }
   }
 ]

@@ -45,13 +45,13 @@ const Home = (): ReactElement => (
         </About>
       </section>
       <section id='program' className='bg-light-subtle py-6'>
-        <Program disabled serializedSlots={JSON.stringify(slots)} />
+        <Program serializedSlots={JSON.stringify(slots)} />
       </section>
       <section id='speakers' className='py-6'>
-        <Speakers blur serializedSpeakers={JSON.stringify(speakers)} />
+        <Speakers serializedSpeakers={JSON.stringify(speakers)} />
       </section>
       <section id='tickets' className='bg-light py-6'>
-        <Tickets disabled ticketsConfiguration={[{ variant: 'primary-subtle' }]} />
+        <Tickets ticketsConfiguration={[{ variant: 'primary-subtle' }]} />
       </section>
       <section id='location' className='mt-6'>
         <Access serializedAccessAndTransport={JSON.stringify(accessAndTransport)} />
