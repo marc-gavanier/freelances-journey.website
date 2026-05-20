@@ -30,36 +30,36 @@
   "about": {
     "title": "Être freelance, c'est embarquer dans une aventure épique, remplie de grands et petits défis à surmonter.",
     "subtitle": "À propos de l'aventure",
-    "description": "Mais devine quoi&nbsp;? Ce n’est pas une aventure à vivre en solo. Les meilleurs conseils se trouvent souvent auprès de celles et ceux qui traversent les mêmes étapes&nbsp;: nos pairs freelances&nbsp;!\n\nImagine-toi dans un village éphémère dédié aux freelances, où chaque quartier est pensé pour t’apporter quelque chose de concret. Ici, on ne fait pas que discuter&nbsp;: on repart avec du concret.\n\nEt pour celles et ceux qui veulent élargir leur réseau, c'est l'occasion idéale pour créer des connexions en un temps record. Des échanges efficaces, bienveillants et rythmés, pour rencontrer un max de freelances en une seule journée.\n\n**Freelances Journey**, c'est bien plus qu'un événement, c'est une journée immersive où le freelancing devient une expérience collective. Prépare-toi à explorer, apprendre, et te connecter avec d'autres aventuriers du freelancing dans une ambiance fun et inspirante&nbsp;! \n\nAmis freelances et futurs freelances, vous êtes les bienvenus&nbsp;!",
+    "description": "Mais devine quoi&nbsp;? Ce n’est pas une aventure à vivre en solo. Les meilleurs conseils se trouvent souvent auprès de celles et ceux qui traversent les mêmes étapes&nbsp;: nos pairs freelances&nbsp;!\n\nImagine-toi dans un village éphémère dédié aux freelances, où chaque quartier est pensé pour t’apporter quelque chose de concret&nbsp;: une **photo pro**, une **vidéo de pitch**, ta vitrine sur le **mur des freelances**, ou des **conseils d’experts** sur ton hébergement, ta compta, ta facturation électronique… Ici, on ne fait pas que discuter&nbsp;: on repart avec du concret.\n\nEt pour celles et ceux qui veulent élargir leur réseau, le **speed networking** est là pour créer des connexions en un temps record. Des échanges efficaces, bienveillants et rythmés, pour rencontrer un max de freelances en un minimum de temps.\n\n**Freelances Journey**, c'est bien plus qu'un événement, c'est une journée immersive où le freelancing devient une expérience collective. Prépare-toi à explorer, apprendre, et te connecter avec d'autres aventuriers du freelancing dans une ambiance fun et inspirante&nbsp;! \n\nAmis freelances et futurs freelances, vous êtes les bienvenus&nbsp;!",
     "learnMore": "En savoir plus",
     "spaces": {
-      "title": "Ce que tu vas trouver dans le village",
-      "subtitle": "Les bénéfices de l'événement",
+      "title": "Un speed networking pour se connecter et un village pour découvrir",
+      "subtitle": "Speed networking et village des freelances",
       "items": [
         {
-          "name": "Connexions",
-          "description": "Élargis ton réseau en rencontrant d'autres freelances. Repars avec de nouveaux contacts qui partagent les mêmes défis et ambitions que toi.",
-          "image": "home/about/gestion-administrative.webp"
+          "name": "Speed networking",
+          "description": "Rencontre d'autres freelances en tête-à-tête express lors de l'une des deux séances de la journée. Des échanges efficaces et bienveillants pour repartir avec de nouveaux contacts.",
+          "image": "home/about/speed-networking.svg"
         },
         {
-          "name": "Inspiration",
-          "description": "Découvre des parcours variés et des idées nouvelles. Laisse-toi inspirer par ceux qui ont tracé leur propre chemin dans le freelancing.",
-          "image": "home/about/trouver-des-clients.webp"
+          "name": "Stand photo",
+          "description": "Profite d'une séance photo pro, rapide et efficace. Repars avec un portrait de qualité pour tes réseaux sociaux ou ton site internet.",
+          "image": "home/about/stand-photo.svg"
         },
         {
-          "name": "Outils concrets",
-          "description": "Repars avec des ressources pratiques et applicables dès le lendemain. Pas de théorie creuse, que du concret pour avancer.",
-          "image": "home/about/se-rendre-visible.webp"
+          "name": "Stand pitch vidéo",
+          "description": "Présente ton activité face caméra en quelques secondes. Tu repars avec une courte vidéo prête à être partagée sur tes réseaux sociaux ou ton site internet.",
+          "image": "home/about/stand-video.svg"
         },
         {
-          "name": "Retours d'expérience",
-          "description": "Apprends des succès et des erreurs des autres. Les meilleurs enseignements viennent souvent de ceux qui sont passés par là avant toi.",
-          "image": "home/about/banques-et-finances.webp"
+          "name": "Mur des freelances",
+          "description": "Affiche ton activité et ton univers sur le mur collectif des freelances. Une vitrine pour te rendre visible auprès des autres participants tout au long de la journée.",
+          "image": "home/about/mur-des-freelances.webp"
         },
         {
-          "name": "Accompagnement",
-          "description": "Obtiens des conseils personnalisés adaptés à ta situation. Profite de regards extérieurs bienveillants pour débloquer tes problématiques.",
-          "image": "home/about/lifestyle.webp"
+          "name": "Village partenaires",
+          "description": "Échange avec les partenaires de l'événement&nbsp;: hébergement, compta, plateformes freelances, coworking, formation, coopératives d'activité, facture électronique… Des réponses concrètes à tes questions du quotidien.",
+          "image": "home/about/village.svg"
         }
       ]
     }
@@ -67,8 +67,8 @@
   "talks": {
     "title": "Programme de la journée",
     "subtitle": "Retrouve la liste des événements prévus",
-    "description": "Le programme se déroule sur une journée de 09h00 à 18h00, 5 conférences s’enchaîneront tout au long de la journée : 2 le matin et 3 l'après-midi.",
-    "callToAction": "Voir le programme des conférences (bientôt disponible)",
+    "description": "Le programme se déroule de 09h00 à 18h00, rythmé par 5 conférences animées par des freelances expérimentés (2 le matin, 3 l'après-midi), une séance de speed networking et les plénières d'ouverture et de clôture.",
+    "callToAction": "Voir le programme des conférences",
     "slots": {
       "09:00-09:30": {
         "title": "Accueil",
@@ -76,7 +76,7 @@
       },
       "09:30-11:45": {
         "title": "Première partie",
-        "description": "Plénière d’ouverture, suivi de 2 conférences."
+        "description": "Plénière d’ouverture, suivie de 2 conférences et d’une séance de speed networking."
       },
       "11:45-13:00": {
         "title": "Déjeuner",
