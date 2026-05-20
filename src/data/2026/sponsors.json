@@ -48,5 +48,10 @@
     "logo": "images/home/sponsors/coworking-grand-lyon.svg",
     "name": "Coworking Grand Lyon",
     "url": "https://www.coworking-grandlyon.org/"
+  },
+  {
+    "logo": "images/home/sponsors/nomad-links.svg",
+    "name": "NomadLinks",
+    "url": "https://www.nomadlinks.com/"
   }
 ]
