@@ -30,7 +30,7 @@
   "about": {
     "title": "Être freelance, c'est embarquer dans une aventure épique, remplie de grands et petits défis à surmonter.",
     "subtitle": "À propos de l'aventure",
-    "description": "Mais devine quoi&nbsp;? Ce n’est pas une aventure à vivre en solo. Les meilleurs conseils se trouvent souvent auprès de celles et ceux qui traversent les mêmes étapes&nbsp;: nos pairs freelances&nbsp;!\n\nImagine-toi dans un village éphémère dédié aux freelances, où chaque quartier est pensé pour t’apporter quelque chose de concret&nbsp;: une **photo pro**, une **vidéo de pitch**, ta vitrine sur le **mur des freelances**, ou des **conseils d’experts** sur ton hébergement, ta compta, ta facturation électronique… Ici, on ne fait pas que discuter&nbsp;: on repart avec du concret.\n\nEt pour celles et ceux qui veulent élargir leur réseau, le **speed networking** est là pour créer des connexions en un temps record. Des échanges efficaces, bienveillants et rythmés, pour rencontrer un max de freelances en un minimum de temps.\n\n**Freelances Journey**, c'est bien plus qu'un événement, c'est une journée immersive où le freelancing devient une expérience collective. Prépare-toi à explorer, apprendre, et te connecter avec d'autres aventuriers du freelancing dans une ambiance fun et inspirante&nbsp;! \n\nAmis freelances et futurs freelances, vous êtes les bienvenus&nbsp;!",
+    "description": "Mais devine quoi ? Ce n’est pas une aventure à vivre en solo. Les meilleurs conseils se trouvent souvent auprès de celles et ceux qui traversent les mêmes étapes : nos pairs freelances !\n\nImagine-toi dans un village éphémère dédié aux freelances, où chaque quartier est pensé pour t’apporter quelque chose de concret : une **photo pro**, une **vidéo de pitch**, ta vitrine sur le **mur des freelances**, ou des **conseils d’experts** sur ton hébergement, ta compta, ta facturation électronique… Ici, on ne fait pas que discuter : on repart avec du concret.\n\nEt pour celles et ceux qui veulent élargir leur réseau, le **speed networking** est là pour créer des connexions en un temps record. Des échanges efficaces, bienveillants et rythmés, pour rencontrer un max de freelances en un minimum de temps.\n\n**Freelances Journey**, c'est bien plus qu'un événement, c'est une journée immersive où le freelancing devient une expérience collective. Prépare-toi à explorer, apprendre, et te connecter avec d'autres aventuriers du freelancing dans une ambiance fun et inspirante ! \n\nAmis freelances et futurs freelances, vous êtes les bienvenus !",
     "learnMore": "En savoir plus",
     "spaces": {
       "title": "Un speed networking pour se connecter et un village pour découvrir",
@@ -47,8 +47,8 @@
           "image": "home/about/stand-photo.svg"
         },
         {
-          "name": "Stand pitch vidéo",
-          "description": "Présente ton activité face caméra en quelques secondes. Tu repars avec une courte vidéo prête à être partagée sur tes réseaux sociaux ou ton site internet.",
+          "name": "Stand pitch vidéo itinérant",
+          "description": "Cette année, le stand pitch vidéo se balade dans le salon : il viendra à ta rencontre pour t'enregistrer où tu es. Présente ton activité face caméra en quelques secondes et repars avec une courte vidéo prête à être partagée sur tes réseaux sociaux.",
           "image": "home/about/stand-video.svg"
         },
         {
@@ -58,7 +58,7 @@
         },
         {
           "name": "Village partenaires",
-          "description": "Échange avec les partenaires de l'événement&nbsp;: hébergement, compta, plateformes freelances, coworking, formation, coopératives d'activité, facture électronique… Des réponses concrètes à tes questions du quotidien.",
+          "description": "Échange avec les partenaires de l'événement : hébergement, compta, plateformes freelances, coworking, formation, coopératives d'activité, facture électronique… Des réponses concrètes à tes questions du quotidien.",
           "image": "home/about/village.svg"
         }
       ]
@@ -67,8 +67,9 @@
   "talks": {
     "title": "Programme de la journée",
     "subtitle": "Retrouve la liste des événements prévus",
-    "description": "Le programme se déroule de 09h00 à 18h00, rythmé par 5 conférences animées par des freelances expérimentés (2 le matin, 3 l'après-midi), une séance de speed networking et les plénières d'ouverture et de clôture.",
+    "description": "Le programme se déroule de 09h00 à 18h00, rythmé par 5 conférences animées par des freelances expérimentés (2 le matin, 3 l'après-midi), une séance de speed networking, les plénières d'ouverture et de clôture, et un networking de fin de journée.",
     "callToAction": "Voir le programme des conférences",
+    "callToActionHint": "Découvre le détail de chaque conférence",
     "slots": {
       "09:00-09:30": {
         "title": "Accueil",
@@ -82,9 +83,9 @@
         "title": "Déjeuner",
         "description": "Un food truck est disponible sur place pour te permettre de te restaurer."
       },
-      "13:00-16:00": {
+      "13:00-18:00": {
         "title": "Seconde partie",
-        "description": "3 conférences sont prévues l’après-midi."
+        "description": "3 conférences, une plénière de clôture et un networking de fin de journée."
       },
       "10:00-18:00": {
         "title": "Village des freelances",
