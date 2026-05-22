@@ -30,11 +30,16 @@ export const Program = ({
             <Markdown>{i18n.description}</Markdown>
           </div>
           <div className='d-sm-block d-grid'>
+            {i18n.callToActionHint && !disabled && (
+              <p className='text-primary fw-semibold mb-2 mt-3'>
+                {i18n.callToActionHint} <span aria-hidden='true'>👇</span>
+              </p>
+            )}
             <Link
               className={`btn btn-primary btn-lg ${disabled ? 'disabled' : null}`}
               href={pathname === '/' ? 'talks' : `.${pathname}/talks`}
               tabIndex={disabled ? -1 : undefined}>
-              {i18n.callToAction}
+              {i18n.callToAction} <span aria-hidden='true'>🔍</span>
             </Link>
           </div>
         </div>

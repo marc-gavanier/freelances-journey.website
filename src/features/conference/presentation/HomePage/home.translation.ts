@@ -36,6 +36,7 @@ export type HomeTranslation = {
     subtitle: string;
     description: string;
     callToAction: string;
+    callToActionHint?: string;
     slots: Record<string, { title: string; description: string }>;
   };
   speakers: {
