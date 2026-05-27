@@ -25,6 +25,11 @@
     "url": "https://www.iconmeetings.io/"
   },
   {
+    "logo": "images/home/sponsors/radiance-mutuelle.svg",
+    "name": "Radiance Mutuelle",
+    "url": "https://www.radiance.fr/"
+  },
+  {
     "logo": "images/home/sponsors/littlebig-connection.svg",
     "name": "LittleBig Connection",
     "url": "https://www.littlebigconnection.com/"
@@ -53,5 +58,10 @@
     "logo": "images/home/sponsors/coworking-grand-lyon.svg",
     "name": "Coworking Grand Lyon",
     "url": "https://www.coworking-grandlyon.org/"
+  },
+  {
+    "logo": "images/home/sponsors/pole-pixel.svg",
+    "name": "Pôle Pixel",
+    "url": "https://www.polepixel.fr/"
   }
 ]
