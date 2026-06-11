@@ -67,7 +67,7 @@
   "talks": {
     "title": "Programme de la journée",
     "subtitle": "Retrouve la liste des événements prévus",
-    "description": "Le programme se déroule de 09h00 à 18h00, rythmé par 5 conférences animées par des freelances expérimentés (2 le matin, 3 l'après-midi), une séance de speed networking, les plénières d'ouverture et de clôture, et un networking de fin de journée.",
+    "description": "Le programme se déroule de 09h00 à 18h00, rythmé par 5 conférences animées par des freelances expérimentés (2 le matin, 3 l'après-midi), une séance de speed networking, les plénières d'ouverture et de clôture, et un apéro networking de fin de journée.",
     "callToAction": "Voir le programme des conférences",
     "callToActionHint": "Découvre le détail de chaque conférence",
     "slots": {
@@ -85,7 +85,7 @@
       },
       "13:00-18:00": {
         "title": "Seconde partie",
-        "description": "3 conférences, une plénière de clôture et un networking de fin de journée."
+        "description": "3 conférences, une plénière de clôture et un apéro networking de fin de journée."
       },
       "10:00-18:00": {
         "title": "Village des freelances",
