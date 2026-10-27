@@ -4,5 +4,11 @@
     "name": "Alexandre Favrot",
     "url": "https://alexandrefavrot.fr/",
     "displayName": true
+  },
+  {
+    "logo": "images/home/organizers/marc-gavanier.webp",
+    "name": "Marc Gavanier",
+    "url": "https://marc.gavanier.com/",
+    "displayName": true
   }
 ]
