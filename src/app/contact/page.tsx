@@ -43,12 +43,13 @@ const ContactPage = (): ReactElement => {
           </Link>
         </nav>
         <article className='bg-white p-5 rounded shadow-sm'>
-          <h1 className='mb-3'>Vous recherchez des freelances&nbsp;?</h1>
+          <h1 className='mb-3'>Contactez-nous</h1>
           <p className='text-muted mb-4'>
-            Vous &ecirc;tes une agence ou un annonceur et vous avez des besoins en freelances&nbsp;?
+            Vous souhaitez devenir sponsor, proposer un partenariat, faire part d&apos;un besoin en freelances ou simplement
+            nous poser une question&nbsp;?
             <br />
-            Remplissez ce formulaire pour nous faire part de vos besoins. Nous les transmettrons aux freelances pr&eacute;sents
-            lors de l&apos;&eacute;v&eacute;nement Freelances Journey.
+            Remplissez ce formulaire, l&apos;&eacute;quipe de Freelances Journey vous r&eacute;pondra dans les plus brefs
+            d&eacute;lais.
           </p>
 
           {status === 'success' ? (
@@ -58,11 +59,11 @@ const ContactPage = (): ReactElement => {
             </div>
           ) : (
             <form onSubmit={handleSubmit}>
-              <input type='hidden' name='subject' value='Nouveau besoin freelance - Freelances Journey' />
+              <input type='hidden' name='subject' value='Nouveau message - Freelances Journey' />
 
               <div className='mb-3'>
                 <label htmlFor='company' className='form-label'>
-                  Nom de l&apos;agence / annonceur <span className='text-danger'>*</span>
+                  Nom / structure <span className='text-danger'>*</span>
                 </label>
                 <input type='text' className='form-control' id='company' name='company' required />
               </div>
@@ -83,7 +84,7 @@ const ContactPage = (): ReactElement => {
 
               <div className='mb-3'>
                 <label htmlFor='message' className='form-label'>
-                  Description du besoin <span className='text-danger'>*</span>
+                  Votre message <span className='text-danger'>*</span>
                 </label>
                 <textarea
                   className='form-control'
@@ -91,7 +92,7 @@ const ContactPage = (): ReactElement => {
                   name='message'
                   rows={5}
                   required
-                  placeholder='Type de profil recherch&eacute;, nature de la mission, dur&eacute;e, comp&eacute;tences attendues...'
+                  placeholder='Sponsoring, partenariat, besoin en freelances, question...'
                 />
               </div>
 
