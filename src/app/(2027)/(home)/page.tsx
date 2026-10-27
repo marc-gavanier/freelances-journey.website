@@ -45,7 +45,7 @@ const Home = (): ReactElement => (
         </About>
       </section>
       <section id='program' className='bg-light-subtle py-6'>
-        <Program serializedSlots={JSON.stringify(slots)} />
+        <Program disabled serializedSlots={JSON.stringify(slots)} />
       </section>
       <section id='speakers' className='py-6'>
         <Speakers blur serializedSpeakers={JSON.stringify(speakers)} />
