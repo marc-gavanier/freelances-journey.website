@@ -29,7 +29,7 @@ const Home = (): ReactElement => (
   <>
     <div className='min-vh-100 d-flex flex-column overflow-hidden position-relative'>
       <div className='h-100 w-100 position-absolute bg-welcome' />
-      <Header editions={[{ year: 2026, isCurrent: true }, { year: 2025 }]} />
+      <Header editions={[{ year: 2027, isCurrent: true }, { year: 2026 }, { year: 2025 }]} />
       <section id='hero' className='container flex-grow-1 d-flex align-items-center pb-5 text-center' style={{ zIndex: 1 }}>
         <Hero />
       </section>

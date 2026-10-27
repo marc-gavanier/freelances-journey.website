@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Conférencier 1 à découvrir",
+    "role": "Je te réserve des clés essentielles pour booster ton activité.",
+    "picture": "images/speakers/anonymous/speaker-1.webp"
+  },
+  {
+    "name": "Conférencier 2 à découvrir",
+    "role": "Mon but ? T’aider à avancer dans ton aventure freelance. À très vite !",
+    "picture": "images/speakers/anonymous/speaker-2.webp"
+  },
+  {
+    "name": "Conférencier 3 à découvrir",
+    "role": "Un moment riche en apprentissages t’attend. Rendez-vous très bientôt.",
+    "picture": "images/speakers/anonymous/speaker-3.webp"
+  },
+  {
+    "name": "Conférencier 4 à découvrir",
+    "role": "J’ai hâte de te dévoiler des astuces qui m’ont permis de transformer des défis en opportunités !",
+    "picture": "images/speakers/anonymous/speaker-4.webp"
+  },
+  {
+    "name": "Conférencier 5 à découvrir",
+    "role": "Ce que j’ai à partager pourrait bien changer ton approche du freelancing.",
+    "picture": "images/speakers/anonymous/speaker-5.webp"
+  }
+]
