@@ -1,0 +1,126 @@
+{
+  "metadata": {
+    "title": "Freelances Journey 2027",
+    "description": "La journée lyonnaise qui met à l’honneur l’aventure du freelancing. Réserve ton billet gratuitement !",
+    "verification": {
+      "google": "tzHW06UkcQ9lZH_75J7RAKCjSa5USJ43y9PCbLvQ66s"
+    }
+  },
+  "hero": {
+    "title": "Freelances Journey",
+    "nextEditionDate": "Lyon - ??/??/2027",
+    "description": "La journée lyonnaise qui met à l’honneur l’aventure du freelancing.",
+    "callToAction": "Réserve ton billet gratuitement"
+  },
+  "header": {
+    "brand": "Freelances Journey 2027",
+    "about": "À propos",
+    "program": "Programme",
+    "speakers": "Conférenciers",
+    "tickets": "Billets",
+    "location": "Le lieu",
+    "sponsors": "Soutiens",
+    "contact": "Contact",
+    "previous": "Éditions"
+  },
+  "organizers": {
+    "title": "Freelances Journey est",
+    "subtitle": "Organisé par"
+  },
+  "about": {
+    "title": "Être freelance, c'est embarquer dans une aventure épique, remplie de grands et petits défis à surmonter.",
+    "subtitle": "À propos de l'aventure",
+    "description": "Mais devine quoi ? Ce n’est pas une aventure à vivre en solo. Les meilleurs conseils se trouvent souvent auprès de celles et ceux qui traversent les mêmes étapes : nos pairs freelances !\n\nImagine-toi dans un village éphémère dédié aux freelances, où chaque quartier est pensé pour t’apporter quelque chose de concret : une **photo pro**, une **vidéo de pitch**, ta vitrine sur le **mur des freelances**, ou des **conseils d’experts** sur ton hébergement, ta compta, ta facturation électronique… Ici, on ne fait pas que discuter : on repart avec du concret.\n\nEt pour celles et ceux qui veulent élargir leur réseau, le **speed networking** est là pour créer des connexions en un temps record. Des échanges efficaces, bienveillants et rythmés, pour rencontrer un max de freelances en un minimum de temps.\n\n**Freelances Journey**, c'est bien plus qu'un événement, c'est une journée immersive où le freelancing devient une expérience collective. Prépare-toi à explorer, apprendre, et te connecter avec d'autres aventuriers du freelancing dans une ambiance fun et inspirante ! \n\nAmis freelances et futurs freelances, vous êtes les bienvenus !",
+    "learnMore": "En savoir plus",
+    "spaces": {
+      "title": "Un speed networking pour se connecter et un village pour découvrir",
+      "subtitle": "Speed networking et village des freelances",
+      "items": [
+        {
+          "name": "Speed networking",
+          "description": "Rencontre d'autres freelances en tête-à-tête express lors de l'une des deux séances de la journée. Des échanges efficaces et bienveillants pour repartir avec de nouveaux contacts.",
+          "image": "home/about/speed-networking.svg"
+        },
+        {
+          "name": "Stand photo",
+          "description": "Profite d'une séance photo pro, rapide et efficace. Repars avec un portrait de qualité pour tes réseaux sociaux ou ton site internet.",
+          "image": "home/about/stand-photo.svg"
+        },
+        {
+          "name": "Stand pitch vidéo itinérant",
+          "description": "Cette année, le stand pitch vidéo se balade dans le salon : il viendra à ta rencontre pour t'enregistrer où tu es. Présente ton activité face caméra en quelques secondes et repars avec une courte vidéo prête à être partagée sur tes réseaux sociaux.",
+          "image": "home/about/stand-video.svg"
+        },
+        {
+          "name": "Mur des freelances",
+          "description": "Affiche ton activité et ton univers sur le mur collectif des freelances. Une vitrine pour te rendre visible auprès des autres participants tout au long de la journée.",
+          "image": "home/about/mur-des-freelances.webp"
+        },
+        {
+          "name": "Village partenaires",
+          "description": "Échange avec les partenaires de l'événement : hébergement, compta, plateformes freelances, coworking, formation, coopératives d'activité, facture électronique… Des réponses concrètes à tes questions du quotidien.",
+          "image": "home/about/village.svg"
+        }
+      ]
+    }
+  },
+  "talks": {
+    "title": "Programme de la journée",
+    "subtitle": "Retrouve la liste des événements prévus",
+    "description": "Le programme se déroule de 09h00 à 18h00, rythmé par 5 conférences animées par des freelances expérimentés (2 le matin, 3 l'après-midi), une séance de speed networking, les plénières d'ouverture et de clôture, et un apéro networking de fin de journée.",
+    "callToAction": "Voir le programme des conférences",
+    "callToActionHint": "Découvre le détail de chaque conférence",
+    "slots": {
+      "09:00-09:30": {
+        "title": "Accueil",
+        "description": "Récupère ton badge pour la journée, puis prend le temps pour discuter en attendant que tout le monde arrive."
+      },
+      "09:30-11:45": {
+        "title": "Première partie",
+        "description": "Plénière d’ouverture, suivie de 2 conférences et d’une séance de speed networking."
+      },
+      "11:45-13:00": {
+        "title": "Déjeuner",
+        "description": "Un food truck est disponible sur place pour te permettre de te restaurer."
+      },
+      "13:00-18:00": {
+        "title": "Seconde partie",
+        "description": "3 conférences, une plénière de clôture et un apéro networking de fin de journée."
+      },
+      "10:00-18:00": {
+        "title": "Village des freelances",
+        "description": "Profite du village jusqu'à la fin de la journée."
+      }
+    }
+  },
+  "speakers": {
+    "title": "La crème de la crème des experts sur le freelancing",
+    "subtitle": "Les conférenciers",
+    "description": "Des ateliers et des conférences de qualité, animés par les créateurs de contenu plébiscités par les freelances auront lieu tout au long de la journée.",
+    "callToAction": "Voir tous les orateurs"
+  },
+  "tickets": {
+    "title": "Réserve ton billet gratuitement",
+    "subtitle": "Participe à l'aventure",
+    "description": "N'hésite pas à partager l'évènement sur tes réseaux avec le hashtag **#FreelancesJourney**.",
+    "callToAction": "Je prends mon billet",
+    "ticketTypes": [
+      {
+        "name": "Accès à la journée",
+        "description": "Ouverture de la billetterie prochainement.",
+        "price": "Gratuit",
+        "link": null
+      }
+    ]
+  },
+  "sponsors": {
+    "title": "Deviens sponsor de l'édition 2027",
+    "subtitle": "Sponsors de Freelances Journey",
+    "description": "**Freelances Journey** existe grâce au soutien de ses sponsors. Tu souhaites rencontrer des centaines de freelances lyonnais, gagner en visibilité auprès de la communauté indépendante et contribuer à faire vivre l'événement ? Rejoins l'aventure en devenant sponsor de l'édition 2027 et [contacte-nous](/contact) pour en discuter !"
+  },
+  "footer": {
+    "legalNotice": "Mentions légales",
+    "termsOfUse": "Conditions d'utilisation",
+    "privacyPolicy": "Politique de confidentialité"
+  }
+}
